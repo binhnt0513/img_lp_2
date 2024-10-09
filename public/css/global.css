@@ -1,0 +1,334 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:500,700,400");
+
+@font-face {
+    font-family: 'Senobi Gothic';
+    src: url('../fonts/Senobi-Gothic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SenobiGothic-Medium';
+    src: url('../fonts/Senobi-Gothic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SenobiGothic-Bold';
+    src: url('../fonts/Senobi-Gothic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "HiraginoKaku Gothic Pro-W3";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/hirakinojiao-ko-pr6n-w3.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "NotoSans CJK JP-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/notosanscjkjp-bold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "HiraginoKaku Gothic ProN-W3";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/noto-sans-condensed-light-italic-nerd-font-complete-mono-windows-compatible.ttf') format("truetype");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.pc {
+    display: block;
+}
+
+.sp {
+    display: none;
+}
+
+p {
+    line-break: normal;
+    line-height: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+    .pc {
+        display: none;
+    }
+
+    .sp {
+        display: block;
+    }
+}
+
+.screen textarea:focus,
+.screen input:focus {
+    outline: none;
+}
+
+.screen * {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.screen div {
+    -webkit-text-size-adjust: none;
+}
+
+.screen a {
+    display: contents;
+    text-decoration: none;
+}
+
+.full-width-a {
+    width: 100%;
+}
+
+.full-height-a {
+    height: 100%;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.align-self-flex-start {
+    align-self: flex-start;
+}
+
+.align-self-flex-end {
+    align-self: flex-end;
+}
+
+.align-self-flex-center {
+    align-self: center;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --azure-radiance: #16859B;
+    --dark-blue: #166F81;
+    --black: #000000;
+    --blue-charcoal: #010a28;
+    --celeste: #cfcfcf;
+    --cyan--aqua: #00d4ff;
+    --gold: #FCE907;
+    --link-water: #d8e8f4;
+    --malibu: #6cccff;
+    --neon-carrot: #ff9831;
+    --regal-blue: #0A4A57;
+    --shady-lady: #aaaaaa;
+    --white: #ffffff;
+    --font-size-l: 19px;
+    --font-size-m: 18px;
+    --font-size-s: 16px;
+    --font-size-xl: 24px;
+    --font-size-xs: 12px;
+    --font-size-xxl: 36px;
+    --font-size-xxxl: 40px;
+    --font-family-hiraginokaku_gothic_pro-w3: "HiraginoKaku Gothic Pro-W3", Helvetica;
+    --font-family-hiraginokaku_gothic_pro-w6: "HiraginoKaku Gothic Pro-W6", Helvetica;
+    --font-family-hiraginokaku_gothic_pron-w3: "HiraginoKaku Gothic ProN-W3", Helvetica;
+    --font-family-noto_sans_jp: "Noto Sans JP", Helvetica;
+    --font-family-notosans_cjk_jp-bold: "NotoSans CJK JP-Bold", Helvetica;
+    --font-family-senobi_gothic: "Senobi Gothic", Helvetica;
+    --font-family-senobigothic-bold: "SenobiGothic-Bold", Helvetica;
+    --font-family-senobigothic-medium: "SenobiGothic-Medium", Helvetica;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.forpc {
+    display: block;
+}
+
+.for-sp {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.margin-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1280px;
+    }
+
+    .header-container {
+        max-width: 1460px;
+    }
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /*margin-right: -15px;*/
+    /*margin-left: -15px;*/
+}
+
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text-underline {
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid transparent;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    transition: all 0.2s;
+}
+
+/* SCROLLBAR */
+[dark-scroll]::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+[dark-scroll]::-webkit-scrollbar-track-piece {
+    background-color: #2b2b2b;
+    border: 1px solid #1d1d1d;
+}
+
+[dark-scroll]::-webkit-scrollbar-thumb {
+    height: 10px;
+    background-color: #4d4d4d;
+}
+
+[dark-scroll]::-webkit-scrollbar-thumb:hover {
+    background-color: #5a5a5a;
+}
+
+.bottom-arrow-btn {
+    position: relative;
+    background-color: #0176BB;
+    height: 62px;
+    width: 100%;
+    border-radius: 28px;
+}
+
+.bottom-arrow-btn:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 10px #0176BB;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+table, td, th {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
