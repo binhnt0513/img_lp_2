@@ -115,7 +115,7 @@
     height: 103px;
     position: relative;
     /* top: 0px; */
-    width: 603px;
+    width: 684px;
 }
 
 .section-1 .border-title-1 {
@@ -871,7 +871,7 @@
     }
 
     .section-1 .group-title-1 {
-        width: 303px;
+        width: 346px;
         height: 37px;
     }
 
@@ -1209,7 +1209,7 @@
 
     .section-1 .title-5 img {
         /*height: 126px;*/
-        transform: translate(10%, -50%);
+        transform: translate(15%, -50%);
         margin-bottom: 0;
     }
 
