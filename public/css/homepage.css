@@ -431,7 +431,7 @@
 .bot-container table, td, th {
     border: 2px solid;
     border-color: var(--azure-radiance);
-    border-bottom-color: var(--malibu);
+    /*border-bottom-color: var(--malibu);*/
 }
 
 .bot-container table {
