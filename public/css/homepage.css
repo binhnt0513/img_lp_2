@@ -171,186 +171,186 @@
 }
 
 .section-1 .title-3 {
-display: flex;
-width: 100%;
-justify-content: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .section-1 .text_label-3 {
-background-color: transparent;
-bottom: -6px;
-color: var(--white);
-font-family: var(--font-family-senobigothic-bold);
-font-size: 130px;
-font-style: normal;
-font-weight: 700;
-letter-spacing: 0.00px;
-line-height: 1;
-text-align: center;
-white-space: nowrap;
+    background-color: transparent;
+    bottom: -6px;
+    color: var(--white);
+    font-family: var(--font-family-senobigothic-bold);
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.00px;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .section-1 .title-3 .img {
-margin-top: -10px;
+    margin-top: -10px;
 }
 
 .font-size-56 {
-font-size: 56px;
+    font-size: 56px;
 }
 
 .section-1 .title-4 {
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
 }
 
 .section-1 .title-5 {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .section-1 .title-5 img {
-transform: translate(10%, -35%);
-margin-bottom: -15%;
-width: 90%;
+    transform: translate(10%, -35%);
+    margin-bottom: -15%;
+    width: 90%;
 }
 
 
 .section-1 .title-5 .text_label-5 {
-background-color: var(--regal-blue);
-border-radius: 10px;
-color: var(--white);
-font-family: var(--font-family-senobigothic-medium);
-font-size: 52px;
-font-style: normal;
-font-weight: 500;
-letter-spacing: 0.00px;
-text-align: center;
-white-space: break-spaces;
-padding: 12px;
-display: inline-block;
+    background-color: var(--regal-blue);
+    border-radius: 10px;
+    color: var(--white);
+    font-family: var(--font-family-senobigothic-medium);
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.00px;
+    text-align: center;
+    white-space: break-spaces;
+    padding: 12px;
+    display: inline-block;
 }
 
 .group-label {
-color: var(--white);
-font-family: var(--font-family-senobi_gothic);
-font-size: var(--font-size-xxxl);
-font-weight: 700;
+    color: var(--white);
+    font-family: var(--font-family-senobi_gothic);
+    font-size: var(--font-size-xxxl);
+    font-weight: 700;
 }
 
 .sub-group-label {
-padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .sub-label {
-color: var(--white);
-font-family: var(--font-family-senobi_gothic);
-font-size: var(--font-size-xxl);
-letter-spacing: 0.00px;
-line-height: 45px;
-text-align: left;
-font-weight: 700;
-white-space: break-spaces;
+    color: var(--white);
+    font-family: var(--font-family-senobi_gothic);
+    font-size: var(--font-size-xxl);
+    letter-spacing: 0.00px;
+    line-height: 45px;
+    text-align: left;
+    font-weight: 700;
+    white-space: break-spaces;
 }
 
 .text-detail {
-color: var(--white);
-font-family: var(--font-family-noto_sans_jp);
-font-size: var(--font-size-m);
-font-style: normal;
-font-weight: 400;
-letter-spacing: 0.00px;
-line-height: 1.5;
-text-align: left;
+    color: var(--white);
+    font-family: var(--font-family-noto_sans_jp);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.00px;
+    line-height: 1.5;
+    text-align: left;
 }
 
 .text-color-aqua {
-color: var(--cyan--aqua);
+    color: var(--cyan--aqua);
 }
 
 .section-2 {
-background-color: var(--regal-blue);
-gap: 60px;
-padding-bottom: 0;
+    background-color: var(--regal-blue);
+    gap: 60px;
+    padding-bottom: 0;
 }
 
 .group-content-1, .group-content-3 {
-display: flex;
-gap: 30px;
-flex-direction: row;
-justify-content: center;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .group-content-1 {
-padding-top: 30px;
+    padding-top: 30px;
 }
 
 .item {
-display: flex;
-justify-content: center;
-padding: 15px 30px;
-color: var(--black);
-font-family: var(--font-family-noto_sans_jp);
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding: 15px 30px;
+    color: var(--black);
+    font-family: var(--font-family-noto_sans_jp);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
 }
 
 .triangle-under-field {
-position: relative;
-background-color: var(--link-water);
-width: 100%;
-border-radius: 10px;
-max-width: 290px;
-line-height: 1.75;
-padding: 10px;
+    position: relative;
+    background-color: var(--link-water);
+    width: 100%;
+    border-radius: 10px;
+    max-width: 290px;
+    line-height: 1.75;
+    padding: 10px;
 }
 
 .triangle-under-field:after {
-content: '';
-position: absolute;
-top: 99%;
-left: 50%;
-width: 0;
-height: 0;
-border-top: solid 11px var(--link-water);
-border-left: solid 11px transparent;
-border-right: solid 11px transparent;
-transform: translateX(-50%);
+    content: '';
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-top: solid 11px var(--link-water);
+    border-left: solid 11px transparent;
+    border-right: solid 11px transparent;
+    transform: translateX(-50%);
 }
 
 .rectangle {
-background-color: var(--cyan--aqua);
-height: 6px;
-width: 50px;
+    background-color: var(--cyan--aqua);
+    height: 6px;
+    width: 50px;
 }
 
 .group-content-2 {
-color: var(--white);
-font-family: var(--font-family-noto_sans_jp);
-font-size: var(--font-size-m);
-font-style: normal;
-font-weight: 400;
-letter-spacing: 0.00px;
-line-height: 35px;
-text-align: left;
-padding: 30px 0;
+    color: var(--white);
+    font-family: var(--font-family-noto_sans_jp);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.00px;
+    line-height: 35px;
+    text-align: left;
+    padding: 30px 0;
 }
 
 .group-content-3 {
-text-align: left;
+    text-align: left;
 }
 
 .group-col {
-display: flex;
-flex-direction: column;
-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .contact-container {
-background: var(--azure-radiance);
-border-radius: 20px;
-/*height: 377px;*/
+    background: var(--azure-radiance);
+    border-radius: 20px;
+    /*height: 377px;*/
 }
 
 .group-content-4 {
