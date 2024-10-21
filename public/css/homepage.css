@@ -151,7 +151,7 @@
 
 .section-1 .rectangle {
     background-color: var(--white);
-    bottom: 0px;
+    bottom: 2px;
     height: 30px;
     position: absolute;
     right: calc(49.92% - 1px);
@@ -169,11 +169,22 @@
     text-align: center;
     text-shadow: 3px 3px 16px rgba(19, 83, 98, 0.56);
 }
-
+.section-1 .text-logo {
+    font-size: 44px;
+    font-family: var(--font-family-senobigothic-bold);
+    color: var(--white);
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0px 3px 30px #248891;
+}
 .section-1 .title-3 {
     display: flex;
     width: 100%;
     justify-content: center;
+    flex-direction: column;
+    margin-bottom: -20px;
 }
 
 .section-1 .text_label-3 {
@@ -920,7 +931,10 @@
         display: flex;
         width: 100%;
         justify-content: center;
-        margin-bottom: -24px;
+        margin-bottom: -10px;
+    }
+    .section-1 .text-logo {
+        font-size: 28px;
     }
 
     .section-1 .text_label-3 {
