@@ -201,8 +201,9 @@
     white-space: nowrap;
 }
 
-.section-1 .title-3 .img {
-    margin-top: -10px;
+.section-1 .title-3 img {
+    margin: auto;
+    width: 70%;
 }
 
 .font-size-56 {
@@ -933,6 +934,10 @@
         justify-content: center;
         margin-bottom: -10px;
     }
+    .section-1 .title-3 img {
+        width: 90%;
+    }
+
     .section-1 .text-logo {
         font-size: 28px;
     }
