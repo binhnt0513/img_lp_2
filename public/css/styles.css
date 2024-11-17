@@ -1,7 +1,7 @@
 
 .ads-img1 {
     position: absolute;
-    top: 9.813rem;
+    top: 7rem;
     right: 1.875rem;
     border-radius: 20px;
     width: 24.375rem;
@@ -12,7 +12,7 @@
 .ads-img3,
 .ads-img2 {
     position: absolute;
-    top: 9.813rem;
+    top: 7rem;
     left: 1.813rem;
     border-radius: 20px;
     width: 25rem;
@@ -1423,7 +1423,7 @@ a {
 .group-container1__child2 {
     height: 1.5rem;
     align-items: flex-start;
-    gap: 2.5rem;
+    gap: 2rem;
     margin-top: 0.25rem;
 }
 
