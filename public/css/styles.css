@@ -1358,7 +1358,7 @@ a {
 }
 
 .ads-img6 {
-    top: 225rem;
+    top: 3rem;
     left: calc(50% + 336px);
     width: 16.5rem;
     height: 8.875rem;
@@ -1373,7 +1373,7 @@ a {
 }
 
 .ads-img5 {
-    top: 225rem;
+    top: -4.5rem;
     left: calc(50% - 630px);
     width: 18.75rem;
     height: 12.375rem;
@@ -3242,14 +3242,14 @@ body {
     }
 
     .ads-img5 {
-        top: 263rem;
+        top: 1.5rem;
         left: 1.25rem;
         width: 121.6px;
         height: 80px;
     }
 
     .ads-img6 {
-        top: 268rem;
+        top: 3rem;
         right: 1.25rem;
         left: unset;
         width: 84px;
