@@ -2794,7 +2794,7 @@ body {
 
     .mask-group-91 {
         position: absolute;
-        height: calc(100% - 16px);
+        height: 100%;
         width: 100%;
         top: 0;
         right: 0;
