@@ -1533,10 +1533,11 @@ a {
 .group-parent146 {
     /* height: 40.188rem; */
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
     align-items: flex-start;
     gap: 1.25rem;
     font-size: 1.125rem;
+    flex-wrap: wrap;
 }
 
 .group-parent147 {
@@ -1549,12 +1550,27 @@ a {
 }
 
 .group-parent148 {
-    width: 10.625rem;
+    /*width: 10.625rem;*/
     height: 12.563rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.312rem;
+    flex: 1 1 calc(100% / 6 - 1.25rem);
+}
+@media (max-width: 1279px) {
+    .group-parent146 {
+        gap: 0.312rem;
+    }
+    .group-parent148 {
+        flex: 1 1 calc(100% / 3 - 0.312rem); /* 3 items per row */
+    }
+}
+
+@media (max-width: 767px) {
+    .group-parent148 {
+        flex: 1 1 calc(100% / 2 - 0.312rem); /* 2 items per row */
+    }
 }
 
 .group-wrapper39 {
@@ -2171,14 +2187,12 @@ body {
     position: relative;
     border-radius: 5px;
     box-sizing: border-box;
-    width: 150px;
+    width: 100%;
     height: 36px;
-    flex-shrink: 0;
 }
 
 .group-div5 {
-    width: 176px;
-    flex-shrink: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2188,18 +2202,17 @@ body {
 .group-div4 {
     position: absolute;
     bottom: 0px;
-    left: calc(50% - 181px);
-    width: 362px;
+    width: 100%;
     height: 36px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 10px;
+    gap: 25px;
 }
 
 .group-div3 {
     position: relative;
-    width: 362px;
+    width: 100%;
     height: 71px;
     flex-shrink: 0;
 }
@@ -2270,7 +2283,6 @@ body {
 .div3 {
     position: relative;
     font-size: 16px;
-    font-family: 'Kozuka Gothic Pr6N';
     color: #000;
     text-align: center;
     display: inline-block;
@@ -2321,16 +2333,17 @@ body {
 }
 
 .group-form {
-    position: absolute;
-    width: calc(100% - 70px);
+    /* position: absolute; */
+    /* width: calc(100% - 70px); */
     top: calc(50% - 196px);
     right: 35px;
-    left: 35px;
-    height: 392px;
+    /* left: 35px; */
+    /* height: 392px; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+    margin: 20px;
 }
 
 .group-div2 {
@@ -2347,7 +2360,7 @@ body {
 }
 
 .group-div {
-    width: 100%;
+    width: 85%;
     max-width: 27rem;
     height: 31.438rem;
 }
@@ -2492,6 +2505,7 @@ body {
 
 .b121 {
     margin: auto 0;
+    padding-right: 1.25rem;
 }
 
 @media (max-width: 768px) {
@@ -2610,7 +2624,7 @@ body {
         top: 0;
         right: 58.49%;
         bottom: 0;
-        left: 0;
+        left: 1rem;
         max-width: 100%;
         overflow: hidden;
         max-height: 100%;
@@ -2629,14 +2643,15 @@ body {
         width: 22.813rem;
         height: 14.875rem;
     }
+    .section1-wrapper4 img {
+        width: 100%;
+    }
 
     .section1-wrapper2 {
-        /*height: 2.625rem;*/
+        height: 2.625rem;
     }
 
-    .section3 .btn-gr {
-        margin-top: 30px;
-    }
+
 
     .btn-gr {
 
@@ -2961,12 +2976,10 @@ body {
         line-height: 2.188rem;
     }
 
-    .group-parent145, .group-parent146 {
-        /* height: 40.188rem; */
+    .group-parent146 {
+        width: 21.875rem;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1.25rem;
+        gap: 0.312rem;
         font-size: 1.125rem;
     }
 
@@ -3019,14 +3032,7 @@ body {
     /*    top: 0;*/
     /*    left: 0;*/
     /*}*/
-    .group-parent146 {
-        /* height: 40.188rem; */
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1.25rem;
-        font-size: 1.125rem;
-    }
+
 
     .group-parent147 {
         width: 21.875rem;
@@ -3076,22 +3082,24 @@ body {
     .group-parent92 {
         font-size: 1rem;
         background-image: url("../img/section3-bg-sp.png");
-        height: 14.625rem;
+        height: 15.625rem;
+    }
+    .union-2 {
+        top: -2.5rem;
     }
 
     .parent29 {
-        /*width: 21.875rem;*/
-        /*height: 10.75rem;*/
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 1.25rem;
-        padding: 1.875rem 1rem;
+        padding: 3.5rem 1rem;
     }
 
     .b92 {
         position: relative;
         line-height: 1.625rem;
+        margin-bottom: 30px;
     }
 
     .btn-gr1 {
@@ -3364,5 +3372,11 @@ body {
         flex-shrink: 0;
         margin-top: -4px;
         margin-right: 3px;
+    }
+    .div61 {
+        font-size: 14px;
+    }
+    .path-168-icon, .path-169-icon {
+        width: 1rem;
     }
 }
