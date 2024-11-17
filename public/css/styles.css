@@ -299,7 +299,7 @@
 
 .top-lp {
     background-color: #FEFEFE;
-    background-image: linear-gradient(#F6F6F6 , #FFFFFF);
+    background-image: linear-gradient(#F6F6F6, #FFFFFF);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -405,6 +405,7 @@
     width: 100%;
     height: 5.063rem;
     margin-right: 0.875rem;
+    text-align: center;
 }
 
 .group-child98,
@@ -1210,6 +1211,7 @@ a {
 .b132 {
     position: relative;
     letter-spacing: 0.17px;
+    color:  #131313;
 }
 
 .group-parent127 {
@@ -1348,13 +1350,13 @@ a {
 
 .section2 {
     width: 100%;
-    top: calc(50% - 2938.8px);
     align-items: center;
     gap: 5rem;
     text-align: center;
     font-size: 2rem;
     color: #131313;
     background: #FFFFFF;
+    padding-top: 80px;
 }
 
 .vector-group {
@@ -1478,12 +1480,14 @@ a {
         height: auto;
     }
 }
+
 @media (min-width: 1300px) {
     .group-container12 {
         flex-direction: row;
         height: auto;
     }
 }
+
 .group-container1 {
     position: absolute;
     /*width: calc(100% - 147px);*/
@@ -1609,14 +1613,25 @@ a {
     height: 16.688rem;
 }
 
+.side-menu .btn-gr {
+    margin-top: 38px;
+}
+
 .top-menu-sp {
-    position: absolute;
+    z-index: 99;
+    position: fixed;
     top: 0;
     left: 0;
     /*background-color: #f6f6f6;*/
     width: 100%;
     height: 3.981rem;
-    z-index: 9999;
+}
+
+.side-menu-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding-bottom: 25px;
 }
 
 .group-container2 {
@@ -1726,18 +1741,15 @@ input:checked + label + .accordion-content {
     position: fixed;
     background-color: #EB6200;
     overflow-x: hidden;
-    /* transition: 0.5s; */
     z-index: 1000;
     display: flex;
     flex-direction: column;
-    /*gap: 24px;*/
-    padding-top: 4.375rem;
 }
 
 .side-menu .menu-link {
     color: white;
     border-bottom: 1px dashed var(--white);
-    margin: 0 1.5rem;
+    margin: 0 1.25rem;
     text-align: center;
     padding: 1.5rem;
 }
@@ -2586,7 +2598,7 @@ body {
 
     .section1-wrapper3 {
         position: relative;
-        width: 100%;
+        width: 24.375rem;
         height: 2.188rem;
         font-size: 1.5rem;
     }
@@ -2622,7 +2634,12 @@ body {
         /*height: 2.625rem;*/
     }
 
+    .section3 .btn-gr {
+        margin-top: 30px;
+    }
+
     .btn-gr {
+
         position: relative;
         width: 21.875rem;
         height: 4.75rem;
@@ -2869,6 +2886,7 @@ body {
     .section21 {
         width: 100%;
         gap: 1.875rem;
+        padding-top: 52px;
     }
 
     .pixta-97717616-m-parent {
@@ -3211,6 +3229,7 @@ body {
 
     .div67, .div68 {
         position: relative;
+        margin-top: 10px;
     }
 
     #logo-close {
