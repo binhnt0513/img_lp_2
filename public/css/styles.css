@@ -100,11 +100,14 @@
 .b76 {
     position: absolute;
     top: 0.563rem;
-    letter-spacing: 5.2px;
+    letter-spacing: 0;
+    font-size: 3.25rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .group-child90 {
-    left: calc(50% + 78px);
+    left: calc(50% + 72px);
 }
 
 .group-child90,
@@ -118,11 +121,11 @@
 }
 
 .group-child91 {
-    left: calc(50% + 136px);
+    left: calc(50% + 133px);
 }
 
 .group-child92 {
-    right: 18rem;
+    right: 19rem;
 }
 
 .section1-wrapper2 {
@@ -300,7 +303,6 @@
     flex-direction: row;
     align-items: flex-end;
     gap: 1.875rem;
-    margin-top: 1.062rem;
     font-size: 1.5rem;
     color: #00985b;
 }
@@ -389,9 +391,6 @@
 }
 
 .b82 {
-    position: absolute;
-    /*top: 0.75rem;*/
-    left: 1.25rem;
     line-height: 1.875rem;
 }
 
@@ -859,9 +858,9 @@
 }
 
 .group-child120 {
-    position: absolute;
-    bottom: 0;
-    left: calc(50% - 30px);
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: calc(50% - 30px);*/
     border-radius: 3px;
     background-color: #e54600;
     width: 3.75rem;
@@ -904,6 +903,11 @@
     flex-direction: row;
     align-items: flex-end;
     gap: 0.312rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.5rem;
 }
 
 .blank-line {
@@ -1052,21 +1056,25 @@
 }
 
 .b104 {
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0;*/
+    letter-spacing: 1.6px;
+    display: block;
+    font-size: 3rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
 }
 
 .parent38 {
-    position: relative;
-    width: 14.625rem;
-    height: 5.719rem;
+    display: flex;
+    gap: 1.3rem;
+    flex-direction: column;
+    place-items: center;
 }
 
-.b105,
-.div47 {
-    position: absolute;
-    left: 0;
+.b105, .div47 {
     display: inline-block;
 }
 
@@ -1076,8 +1084,8 @@
 }
 
 .div47 {
+    margin-top: 1.25rem;
     width: calc(100% + 1px);
-    bottom: 0;
     font-size: 1rem;
     line-height: 1.75rem;
     font-weight: 500;
@@ -1168,38 +1176,34 @@
     position: relative;
     border-radius: 20px;
     background-color: #fff;
-    width: 36.25rem;
-    height: 23.125rem;
+    /*width: 36.25rem;*/
+    /*height: 23.125rem;*/
 }
 
 .group-child128,
 .parent41 {
     position: relative;
-    width: 31.25rem;
-    height: 9.813rem;
+    max-width: 31.25rem;
+    width: 100%;
+    /*min-height: 9.813rem;*/
 }
 
 .group-child128 {
     border-top: 1px dashed #8e8e8e;
     box-sizing: border-box;
-    width: 31.281rem;
+    width: 100%;
+    max-width: 31.281rem;
     height: 0.125rem;
 }
 
 .group-child129 {
-    position: absolute;
-    width: calc(100% - 22.6px);
-    top: calc(50% - 28px);
-    right: 0.703rem;
-    left: 0.709rem;
-    max-width: 100%;
-    overflow: hidden;
-    height: 3.381rem;
+    width: 100%;
 }
 
 .group-parent104 {
     position: relative;
-    width: 31.25rem;
+    max-width: 31.25rem;
+    width: 100%;
     height: 5rem;
     font-size: 1rem;
     color: #000;
@@ -1207,12 +1211,12 @@
 }
 
 .group-parent103 {
-    position: absolute;
-    width: calc(100% - 80px);
-    top: calc(50% - 145px);
-    right: 2.5rem;
-    left: 2.5rem;
-    height: 18.125rem;
+    /*position: absolute;*/
+    /*width: calc(100% - 80px);*/
+    /*top: calc(50% - 145px);*/
+    margin: 2.5rem;
+    /*left: 2.5rem;*/
+    /*height: 18.125rem;*/
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -1229,8 +1233,9 @@
 }
 
 .group-parent100 {
-    width: 75rem;
-    height: 23.188rem;
+    width: 100%;
+    max-width: 75rem;
+    /*height: 23.188rem;*/
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -1337,7 +1342,11 @@
 }
 
 .group-parent99 {
-    height: 48.156rem;
+    /*height: 48.156rem;*/
+    width: 100%;
+    max-width: 75rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: flex-start;
     gap: 1.875rem;
     text-align: left;
@@ -1346,14 +1355,31 @@
 }
 
 .group-parent98 {
-    position: absolute;
-    width: calc(100% - 640px);
-    top: calc(50% - 461px);
-    right: 20rem;
-    left: 20rem;
-    height: 56.375rem;
+    /*position: absolute;*/
+    /*width: calc(100% - 640px);*/
+    /*top: calc(50% - 461px);*/
+    /*right: 20rem;*/
+    /*left: 20rem;*/
+    /*height: 56.375rem;*/
     align-items: center;
     gap: 2.5rem;
+    margin-top: 6.5rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
 }
 
 .section24 {
@@ -1387,6 +1413,18 @@
 .b110,
 .mask-group-4 {
     position: relative;
+    font-weight: bold;
+    text-decoration: none;
+    color: #131313;
+}
+
+.b111 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
 }
 
 .mask-group-4 {
@@ -1563,6 +1601,9 @@
     gap: 2.5rem;
     margin-top: 2.5rem;
     margin-right: 0.062rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #131313;
 }
 
 .parent54 {
@@ -2092,7 +2133,7 @@
 }
 
 .vector-group {
-    margin-top: 6.25rem;
+    margin-top: 6.6rem;
     width: 2.5rem;
     height: 3.2rem;
     align-items: flex-start;
@@ -2123,14 +2164,7 @@
 }
 
 .mask-group-9 {
-    height: calc(100% - 29px);
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 1.813rem;
-    left: 0;
     max-width: 100%;
-    overflow: hidden;
     max-height: 100%;
 }
 
@@ -2213,7 +2247,7 @@
 
 .b144 {
     position: absolute;
-    top: 0.625rem;
+    top: 0.425rem;
     left: 1.563rem;
 }
 
@@ -3402,8 +3436,61 @@
     #logo-show {
         display: none;
     }
-    .group-parent99 {
-        display: none;
+
+    .section24 {
+        background-image: url(../img/section5-bg-sp.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 100%;
+        height: 36.438rem;
+        margin-top: 0.625rem;
+        align-self: flex-start;
+    }
+
+    .group-parent98 {
+        margin-top: 3.125rem;
+        gap: 1.25rem;
+    }
+
+    .group-parent103 {
+        margin: 1.25rem;
+    }
+
+    .group-wrapper20 {
+        max-width: 16.875rem;
+        margin-right: 1.25rem;
+    }
+
+    .b105 {
+        font-size: 18px;
+    }
+
+    .div47, .div48 {
+        font-size: 14px;
+    }
+
+    .kn {
+        font-size: 1rem;
+    }
+
+    .parent38 {
+        gap: 1rem;
+    }
+
+    .ads-img5 {
+        top: 266rem;
+        left: 1.25rem;
+        width: 121.6px;
+        height: 80px;
+    }
+
+    .ads-img6 {
+        top: 267rem;
+        right: 1.25rem;
+        left: unset;
+        width: 84px;
+        height: 45px;
     }
 }
 
@@ -4415,6 +4502,7 @@ body {
     height: 358px;
     flex-shrink: 0;
 }
+
 .group-div86 {
     position: absolute;
     width: calc(100% - 40px);
@@ -4427,12 +4515,14 @@ body {
     align-items: flex-start;
     gap: 25px;
 }
+
 .group-div87 {
     position: relative;
     width: 231px;
     height: 183px;
     flex-shrink: 0;
 }
+
 .group-div88 {
     position: absolute;
     width: 100%;
@@ -4445,12 +4535,14 @@ body {
     align-items: flex-start;
     gap: 18px;
 }
+
 .b35 {
     position: relative;
     letter-spacing: -0.43px;
     display: inline-block;
     width: 232px;
 }
+
 .div9 {
     position: relative;
     font-size: 14px;
@@ -4460,6 +4552,7 @@ body {
     display: inline-block;
     width: 232px;
 }
+
 .line-div {
     position: relative;
     border-top: 1px dashed #8e8e8e;
@@ -4469,6 +4562,7 @@ body {
     flex-shrink: 0;
     align-self: center;
 }
+
 .group-div89 {
     position: relative;
     width: 229.58px;
@@ -4477,6 +4571,7 @@ body {
     font-size: 14px;
     color: #000;
 }
+
 .group-div90 {
     position: absolute;
     height: 100%;
@@ -4487,6 +4582,7 @@ body {
     background-color: #e5e5e5;
     width: 60px;
 }
+
 .group-icon11 {
     position: absolute;
     top: calc(50% - 19.57px);
@@ -4494,12 +4590,14 @@ body {
     width: 41.69px;
     height: 39.15px;
 }
+
 .div10 {
     position: absolute;
     bottom: 0px;
     left: 0px;
     display: inline-block;
 }
+
 .yt-b {
     position: absolute;
     top: 0px;
