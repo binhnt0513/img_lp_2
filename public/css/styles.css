@@ -297,6 +297,15 @@
     color: #00985b;
 }
 
+.top-lp {
+    background-color: #FEFEFE;
+    background-image: linear-gradient(#F6F6F6 , #FFFFFF);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .section1 {
     /*position: absolute;*/
     margin-top: 12.25rem;
@@ -331,6 +340,7 @@
     line-height: 1.5rem;
     transform: rotate(350deg);
 }
+
 .group-parent86 .blank-line {
     padding: 13px;
 }
@@ -662,7 +672,6 @@
 }
 
 .section22 {
-    background: #F6F6F6;
     position: relative;
     width: 100%;
     height: 27.5rem;
@@ -2279,8 +2288,7 @@ body {
     width: 259px;
     height: 48px;
     flex-shrink: 0;
-    margin-top: 5px;
-    margin-left: 48px;
+    margin: 0 auto;
 }
 
 .group-form {
@@ -2456,10 +2464,12 @@ body {
 .b121 {
     margin: auto 0;
 }
+
 @media (max-width: 768px) {
     #show {
         display: none;
     }
+
     .rectangle-parent17 {
         width: 100%;
     }
@@ -2474,14 +2484,16 @@ body {
         position: fixed;
         bottom: 0px;
         width: 100%;
-        background: white;
+        background: transparent;
         display: flex;
         flex-direction: column;
     }
+
     .bottom-btn-gr-sp .parent26, .bottom-btn-gr-sp .parent27 {
         top: unset;
         justify-content: center;
     }
+
     .lp {
         /*position: relative;*/
         height: unset;
@@ -2956,7 +2968,6 @@ body {
     /*    width: 5.344rem;*/
     /*    height: 5.688rem;*/
     /*}*/
-
     .b162 {
         position: relative;
         letter-spacing: 1.8px;
@@ -2973,7 +2984,6 @@ body {
     /*    top: 0;*/
     /*    left: 0;*/
     /*}*/
-
     .group-parent146 {
         /* height: 40.188rem; */
         display: flex;
@@ -3016,7 +3026,6 @@ body {
     /*    width: 5.344rem;*/
     /*    height: 5.688rem;*/
     /*}*/
-
     .b162 {
         position: relative;
         letter-spacing: 1.8px;
@@ -3029,7 +3038,6 @@ body {
     /*    width: 6.919rem;*/
     /*    height: 4.438rem;*/
     /*}*/
-
     .group-parent92 {
         font-size: 1rem;
         background-image: url("../img/section3-bg-sp.png");
@@ -3278,6 +3286,7 @@ body {
     .parent33 {
         font-size: 1.125rem;
     }
+
     .section4 {
         height: 23.75rem;
     }
@@ -3303,6 +3312,7 @@ body {
         align-items: flex-end;
         gap: 4px;
     }
+
     .pxta-middle .group-child98 {
         position: relative;
         width: 24px;
@@ -3310,6 +3320,7 @@ body {
         flex-shrink: 0;
         margin-right: 16px;
     }
+
     .pxta-middle .group-child99 {
         position: relative;
         width: 18px;
