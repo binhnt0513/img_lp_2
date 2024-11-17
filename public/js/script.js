@@ -19,3 +19,18 @@ function navigateToSection(event) {
     toggleMenu();
   }
 }
+
+$(document).ready(function() {
+  var $button = $('#stick-btn'); // Replace with your button's ID
+
+  $(window).scroll(function(event) {
+    var st = $(this).scrollTop();
+    if (st > 0) {
+      // Downscroll or not at the top
+      $button.fadeIn().css('display', 'flex');
+    } else {
+      // At the top of the page
+      $button.fadeOut().css('display', 'flex');
+    }
+  });
+});
