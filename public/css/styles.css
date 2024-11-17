@@ -499,7 +499,7 @@
     flex-direction: row;
     align-items: flex-end;
     gap: 3.125rem;
-    margin-left: 1.687rem;
+    /*margin-left: 1.687rem;*/
     font-size: 1.25rem;
 }
 
@@ -2473,7 +2473,7 @@ body {
         z-index: 999;
         position: fixed;
         bottom: 0px;
-        /*width: 100%;*/
+        width: 100%;
         background: white;
         display: flex;
         flex-direction: column;
