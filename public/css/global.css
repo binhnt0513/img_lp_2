@@ -1,4 +1,4 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/*@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");*/
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:500,700,400");
 
 @font-face {
@@ -43,10 +43,36 @@
     src: url('../fonts/noto-sans-condensed-light-italic-nerd-font-complete-mono-windows-compatible.ttf') format("truetype");
 }
 
+
+@font-face {
+    font-family: "KozukaGothic Pr6N-R";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/kozgopr6nregular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "KozukaGothic Pr6N-B";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/kozuka-gothic-pr6n-b.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "Mplus1p-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/MPLUS1p-Bold.ttf') format("truetype");
+}
+
+
 html {
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+}
 .pc {
     display: block;
 }
@@ -135,34 +161,33 @@ input:focus {
 }
 
 :root {
-    --azure-radiance: #16859B;
-    --dark-blue: #166F81;
+    --apple-green: #e0f1f1;
     --black: #000000;
-    --blue-charcoal: #010a28;
-    --celeste: #cfcfcf;
-    --cyan--aqua: #00d4ff;
-    --gold: #FCE907;
-    --link-water: #d8e8f4;
-    --malibu: #6cccff;
-    --neon-carrot: #ff9831;
-    --regal-blue: #0A4A57;
-    --shady-lady: #aaaaaa;
+    --black-haze: #f6f6f6;
+    --chicago: #5b5b5b;
+    --cloud: #c7c7c7;
+    --domino: #8e775d;
+    --fun-green: #036e43;
+    --green-haze: #00985b;
+    --hacienda: #95761f;
+    --licorice: #131313;
+    --licorice-2: #1a1311;
+    --mercury: #e5e5e5;
+    --quick-silver: #a4a4a4;
+    --serenade: #fff7e8;
+    --trinidad: #e54600;
     --white: #ffffff;
-    --font-size-l: 19px;
-    --font-size-m: 18px;
-    --font-size-s: 16px;
-    --font-size-xl: 24px;
-    --font-size-xs: 12px;
-    --font-size-xxl: 36px;
-    --font-size-xxxl: 40px;
-    --font-family-hiraginokaku_gothic_pro-w3: "HiraginoKaku Gothic Pro-W3", Helvetica;
-    --font-family-hiraginokaku_gothic_pro-w6: "HiraginoKaku Gothic Pro-W6", Helvetica;
-    --font-family-hiraginokaku_gothic_pron-w3: "HiraginoKaku Gothic ProN-W3", Helvetica;
+    --font-size-l: 18px;
+    --font-size-m: 16px;
+    --font-size-s: 15px;
+    --font-size-xl: 20px;
+    --font-size-xs: 14px;
+    --font-size-xxl: 24px;
+    --font-size-xxxl: 32px;
+    --font-family-kozukagothic_pr6n-b: "KozukaGothic Pr6N-B", Helvetica;
+    --font-family-kozukagothic_pr6n-r: "KozukaGothic Pr6N-R", Helvetica;
+    --font-family-mplus1p-bold: "Mplus1p-Bold", Helvetica;
     --font-family-noto_sans_jp: "Noto Sans JP", Helvetica;
-    --font-family-notosans_cjk_jp-bold: "NotoSans CJK JP-Bold", Helvetica;
-    --font-family-senobi_gothic: "Senobi Gothic", Helvetica;
-    --font-family-senobigothic-bold: "SenobiGothic-Bold", Helvetica;
-    --font-family-senobigothic-medium: "SenobiGothic-Medium", Helvetica;
 }
 
 
@@ -177,6 +202,19 @@ input:focus {
 
 .for-sp {
     display: none;
+}
+
+@media (max-width: 768px) {
+    /*html {*/
+    /*    font-size: 14px;*/
+    /*}*/
+    .forpc {
+        display: none;
+    }
+
+    .for-sp {
+        display: block;
+    }
 }
 
 .container {
@@ -331,4 +369,35 @@ table, td, th {
 table {
     width: 100%;
     border-collapse: collapse;
+}
+
+.notosansjp-bold-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-noto_sans_jp);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+}
+.notosansjp-bold-licorice-32px-2 {
+    color: var(--licorice);
+    font-family: var(--font-family-noto_sans_jp);
+    font-size: var(--font-size-xxxl);
+}
+.notosansjp-bold-licorice-32px {
+    color: var(--licorice);
+    font-family: var(--font-family-noto_sans_jp);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 700;
+}
+.notosansjp-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-noto_sans_jp);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.text-color-white {
+    color: var(--white);
 }
