@@ -325,11 +325,14 @@
 
 .b80 {
     position: absolute;
-    bottom: 0.5rem;
-    left: 1rem;
+    bottom: 0.9rem;
+    left: 0.9rem;
     letter-spacing: 0.9px;
     line-height: 1.5rem;
     transform: rotate(350deg);
+}
+.group-parent86 .blank-line {
+    padding: 13px;
 }
 
 .union-1-parent {
@@ -1528,25 +1531,25 @@ a {
     height: 10.625rem;
 }
 
-.group-child175 {
-    position: absolute;
-    top: calc(50% - 45px);
-    left: calc(50% - 43px);
-    width: 5.344rem;
-    height: 5.688rem;
-}
+/*.group-child175 {*/
+/*    position: absolute;*/
+/*    top: calc(50% - 45px);*/
+/*    left: calc(50% - 43px);*/
+/*    width: 5.344rem;*/
+/*    height: 5.688rem;*/
+/*}*/
 
 .b162 {
     position: relative;
     letter-spacing: 1.8px;
 }
 
-.group-child176 {
+.group-child175, .group-child176 {
     position: absolute;
-    top: calc(50% - 35px);
-    left: calc(50% - 55px);
-    width: 6.919rem;
-    height: 4.438rem;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .back-top-section {
@@ -1628,7 +1631,7 @@ a {
     cursor: pointer;
 }
 
-.bottom-btn-gr {
+.bottom-btn-gr-sp {
     display: none;
 }
 
@@ -2448,6 +2451,9 @@ body {
     color: #131313;
 }
 
+.b121 {
+    margin: auto 0;
+}
 @media (max-width: 768px) {
     .rectangle-parent17 {
         width: 100%;
@@ -2457,10 +2463,20 @@ body {
         border-radius: 0;
     }
 
-    .bottom-btn-gr {
-        display: block;
+    .bottom-btn-gr-sp {
+        margin: 10px;
+        z-index: 999;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background: white;
+        display: flex;
+        flex-direction: column;
     }
-
+    .bottom-btn-gr-sp .parent26, .bottom-btn-gr-sp .parent27 {
+        top: unset;
+        justify-content: center;
+    }
     .lp {
         /*position: relative;*/
         height: unset;
@@ -2928,26 +2944,30 @@ body {
         height: 10.625rem;
     }
 
-    .group-child175 {
-        position: absolute;
-        top: calc(50% - 45px);
-        left: calc(50% - 43px);
-        width: 5.344rem;
-        height: 5.688rem;
-    }
+    /*.group-child175 {*/
+    /*    position: absolute;*/
+    /*    top: calc(50% - 45px);*/
+    /*    left: calc(50% - 43px);*/
+    /*    width: 5.344rem;*/
+    /*    height: 5.688rem;*/
+    /*}*/
 
     .b162 {
         position: relative;
         letter-spacing: 1.8px;
     }
 
-    .group-child176 {
-        position: absolute;
-        top: calc(50% - 35px);
-        left: calc(50% - 55px);
-        width: 6.919rem;
-        height: 4.438rem;
-    }
+    /*.group-child176 {*/
+    /*    !*position: absolute;*!*/
+    /*    !*top: calc(50% - 35px);*!*/
+    /*    !*left: calc(50% - 55px);*!*/
+    /*    !*width: 6.919rem;*!*/
+    /*    !*height: 4.438rem;*!*/
+    /*    width: 100%;*/
+    /*    height: 100%;*/
+    /*    top: 0;*/
+    /*    left: 0;*/
+    /*}*/
 
     .group-parent146 {
         /* height: 40.188rem; */
@@ -2984,26 +3004,26 @@ body {
         height: 10.625rem;
     }
 
-    .group-child175 {
-        position: absolute;
-        top: calc(50% - 45px);
-        left: calc(50% - 43px);
-        width: 5.344rem;
-        height: 5.688rem;
-    }
+    /*.group-child175 {*/
+    /*    position: absolute;*/
+    /*    top: calc(50% - 45px);*/
+    /*    left: calc(50% - 43px);*/
+    /*    width: 5.344rem;*/
+    /*    height: 5.688rem;*/
+    /*}*/
 
     .b162 {
         position: relative;
         letter-spacing: 1.8px;
     }
 
-    .group-child176 {
-        position: absolute;
-        top: calc(50% - 35px);
-        left: calc(50% - 55px);
-        width: 6.919rem;
-        height: 4.438rem;
-    }
+    /*.group-child176 {*/
+    /*    position: absolute;*/
+    /*    top: calc(50% - 35px);*/
+    /*    left: calc(50% - 55px);*/
+    /*    width: 6.919rem;*/
+    /*    height: 4.438rem;*/
+    /*}*/
 
     .group-parent92 {
         font-size: 1rem;
@@ -3033,7 +3053,7 @@ body {
     }
 
     .section2 {
-        gap: 1.875rem;
+        gap: 3.125rem;
         font-size: 1.375rem;
     }
 
@@ -3155,7 +3175,7 @@ body {
 
     .group-parent125 {
         margin-top: 1.25rem;
-        gap: 1.25rem;
+        gap: 1.563rem;
         height: unset;
     }
 
@@ -3220,14 +3240,14 @@ body {
     }
 
     .ads-img5 {
-        top: 266rem;
+        top: 263rem;
         left: 1.25rem;
         width: 121.6px;
         height: 80px;
     }
 
     .ads-img6 {
-        top: 267rem;
+        top: 268rem;
         right: 1.25rem;
         left: unset;
         width: 84px;
@@ -3252,5 +3272,45 @@ body {
 
     .parent33 {
         font-size: 1.125rem;
+    }
+    .section4 {
+        height: 23.75rem;
+    }
+
+    .pxta-middle .pixta-97717616-m-icon {
+        position: absolute;
+        top: 0px;
+        left: calc(50% + 43px);
+        border-radius: 156px;
+        width: 132px;
+        height: 132px;
+        object-fit: cover;
+    }
+
+    .pxta-middle .group-parent86 {
+        position: absolute;
+        top: calc(50% - 51px);
+        left: 0px;
+        width: 242px;
+        height: 102px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 4px;
+    }
+    .pxta-middle .group-child98 {
+        position: relative;
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+        margin-right: 16px;
+    }
+    .pxta-middle .group-child99 {
+        position: relative;
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        margin-top: -4px;
+        margin-right: 3px;
     }
 }
