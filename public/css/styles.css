@@ -2901,7 +2901,6 @@ body {
     .section21 {
         width: 100%;
         gap: 1.875rem;
-        padding-top: 52px;
     }
 
     .pixta-97717616-m-parent {
@@ -3249,7 +3248,7 @@ body {
     }
 
     .section24 {
-        background-image: url(../img/section5-bg-sp.svg);
+        background-image: url(../img/section5-bg.svg);
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
