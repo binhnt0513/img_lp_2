@@ -893,7 +893,6 @@ body {
     height: 5rem;
     font-size: 1rem;
     color: #000;
-    font-family: "Kozuka Gothic Pr6N";
 }
 
 .group-parent103 {
@@ -1666,22 +1665,12 @@ a {
 }
 
 .group-container22 {
-    width: 1.313rem;
-    height: 0.313rem;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 0.187rem;
-}
-
-
-.group-container22 {
     display: none;
     position: absolute;
     top: calc(50% - 10.85px);
-    right: 0;
+    right: 1.25rem;
     height: 1.313rem;
-    flex-direction: column;
+    width: 1.313rem;
     cursor: pointer;
 }
 
@@ -3208,7 +3197,6 @@ body {
     .group-container1 {
         align-items: baseline;
         padding: 20px;
-        width: 390px;
     }
 
     .group-container1__child1 {
