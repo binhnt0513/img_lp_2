@@ -1,4 +1,9 @@
 
+body {
+    background-color: #FEFEFE;
+    background-image: linear-gradient(#F6F6F6, #FFFFFF);
+}
+
 .ads-img1 {
     position: absolute;
     top: 7rem;
@@ -1503,7 +1508,7 @@ a {
 }
 
 .lp {
-    /*background-color: #F6F6F6;*/
+    background-color: #FFFFFF;
     width: 100%;
     text-align: left;
     font-size: 1rem;
