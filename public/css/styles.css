@@ -837,12 +837,12 @@ body {
 .div48 {
     width: 100%;
     line-height: 0;
+    padding-top: 12px;
 }
 
 
 .kn {
     font-size: 1.25rem;
-    padding-bottom: 12px;
 }
 
 
@@ -1064,11 +1064,9 @@ a {
 }
 
 .group-parent117 {
-    /*height: 9.894rem;*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.937rem;
     border-radius: 10px;
     background-color: #fff;
     border: 1px solid #e54600;
@@ -3085,15 +3083,19 @@ body {
         font-size: 1.125rem;
     }
 
-    .div47, .div48 {
+    .div47 {
         font-size: 0.875rem;
         font-weight: normal;
         line-height: 1.5rem;
     }
 
+    .div48 {
+        padding-top: 9px;
+        font-size: 0.875rem;
+    }
+
     .kn {
         font-size: 1rem;
-        padding-bottom: 9px;
     }
 
     .group-wrapper21 {
@@ -3208,10 +3210,12 @@ body {
         padding: 20px;
         width: 390px;
     }
+
     .group-container1__child1 {
         height: 33.73px;
         width: 140px;
     }
+
     .top-menu-pc {
         height: 64px;
     }
