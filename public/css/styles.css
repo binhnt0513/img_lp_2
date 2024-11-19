@@ -275,7 +275,7 @@ body {
 .btn-gr {
     height: 8.063rem;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     gap: 1.875rem;
     font-size: 1.5rem;
     color: #00985b;
@@ -1504,6 +1504,7 @@ a {
     flex-direction: column;
     align-items: center;
     display: flex;
+    background: #f6f6f6;
 }
 
 .lp {
