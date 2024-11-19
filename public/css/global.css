@@ -73,6 +73,7 @@ html {
 body {
     margin: 0;
 }
+
 .pc {
     display: block;
 }
@@ -84,6 +85,11 @@ body {
 p {
     line-break: normal;
     line-height: 1.5em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -378,11 +384,13 @@ table {
     font-style: normal;
     font-weight: 700;
 }
+
 .notosansjp-bold-licorice-32px-2 {
     color: var(--licorice);
     font-family: var(--font-family-noto_sans_jp);
     font-size: var(--font-size-xxxl);
 }
+
 .notosansjp-bold-licorice-32px {
     color: var(--licorice);
     font-family: var(--font-family-noto_sans_jp);
@@ -390,6 +398,7 @@ table {
     font-style: normal;
     font-weight: 700;
 }
+
 .notosansjp-bold-black-20px {
     color: var(--black);
     font-family: var(--font-family-noto_sans_jp);

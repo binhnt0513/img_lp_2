@@ -6,7 +6,7 @@ body {
 
 .ads-img1 {
     position: absolute;
-    top: 7rem;
+    top: 9.813rem;
     right: 1.875rem;
     border-radius: 20px;
     width: 24.375rem;
@@ -17,7 +17,7 @@ body {
 .ads-img3,
 .ads-img2 {
     position: absolute;
-    top: 7rem;
+    top: 9.813rem;
     left: 1.813rem;
     border-radius: 20px;
     width: 25rem;
@@ -840,12 +840,10 @@ body {
 }
 
 
-
 .kn {
     font-size: 1.25rem;
     padding-bottom: 12px;
 }
-
 
 
 .group-wrapper21 {
@@ -1234,6 +1232,7 @@ a {
     text-align: center;
     color: #fff;
 }
+
 .group-wrapper38::after {
     content: '';
     display: inline-block;
@@ -1480,19 +1479,18 @@ a {
 
 .group-container1 {
     position: absolute;
-    /*width: calc(100% - 147px);*/
+    /* width: calc(100% - 147px); */
     top: calc(50% - 24.19px);
-    right: 5.438rem;
-    left: 3.75rem;
     height: 3.013rem;
     margin: 0 auto;
     min-width: auto;
-    max-width: 1440px;
+    max-width: 1840px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex-direction: column
+    flex-direction: column;
+    align-items: center;
 }
 
 .top-menu-pc {
@@ -1505,6 +1503,9 @@ a {
     height: 5.625rem;
     font-size: 1.125rem;
     color: #131313;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
 }
 
 .lp {
@@ -1517,6 +1518,8 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    top: -24px;
 }
 
 
@@ -1675,6 +1678,7 @@ a {
 
 
 .group-container22 {
+    display: none;
     position: absolute;
     top: calc(50% - 10.85px);
     right: 0;
@@ -2689,6 +2693,7 @@ body {
         font-size: 0.938rem;
         padding: 0 12px;
     }
+
     .btn-default::after {
         width: 1rem;
         height: 1rem;
@@ -3097,6 +3102,7 @@ body {
         font-size: 1rem;
         padding-bottom: 9px;
     }
+
     .group-wrapper21 {
         width: 4.313rem;
         height: 4.313rem;
@@ -3190,5 +3196,30 @@ body {
 
     .path-168-icon, .path-169-icon {
         width: 1rem;
+    }
+
+    .group-container1__child2 {
+        display: none;
+    }
+
+    .group-container12 {
+        display: none;
+    }
+
+    .group-container22 {
+        display: block;
+    }
+
+    .group-container1 {
+        align-items: baseline;
+        padding: 20px;
+        width: 390px;
+    }
+    .group-container1__child1 {
+        height: 33.73px;
+        width: 140px;
+    }
+    .top-menu-pc {
+        height: 64px;
     }
 }
