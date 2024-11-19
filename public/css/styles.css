@@ -931,7 +931,7 @@ body {
 
 
 .section24 {
-    background-image: url("../img/section5-bg.svg");
+    background: url("../img/section5-bg.svg") center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -3059,14 +3059,7 @@ body {
     }
 
     .section24 {
-        background-image: url(../img/section5-bg.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
-        width: 100%;
         height: unset;
-        margin-top: 0.625rem;
-        align-self: flex-start;
     }
 
     .group-parent98 {
