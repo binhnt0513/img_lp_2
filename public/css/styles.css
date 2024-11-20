@@ -2985,6 +2985,9 @@ body {
         padding-left: 1rem;
         gap: 1.25rem;
     }
+    .accordion label::after {
+        right: 1rem;
+    }
 
     .accordion-content-grid {
         gap: 1.25rem;
