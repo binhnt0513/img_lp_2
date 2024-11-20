@@ -1698,6 +1698,7 @@ label {
 
 .accordion input:checked + label::after {
     background-image: url("../img/icon-minus.png");
+    height: 4px;
 }
 
 .accordion-content {
