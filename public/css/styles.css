@@ -1427,6 +1427,7 @@ a {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     border-radius: 24px;
     background-color: #00985b;
+    border: 1px solid #00985b;
     width: 12.25rem;
     height: 2.75rem;
     display: flex;
@@ -1436,8 +1437,8 @@ a {
     background-color: #fff;
     border: 1px solid #e54600;
     box-sizing: border-box;
-    width: 12rem;
-    height: 2.688rem;
+    /*width: 12rem;*/
+    /*height: 2.688rem;*/
     color: #e54600;
 }
 
@@ -3209,5 +3210,25 @@ body {
 
     .group-parent99 {
         margin-bottom: 80px !important;
+    }
+}
+@media (max-width: 1100px) {
+    .group-container1 {
+        padding: 0 2rem;
+    }
+    .group-container11 {
+        gap: 2rem;
+    }
+    .b110, .b144 {
+        font-size: 0.875rem;
+    }
+    .group-container1__child1 {
+        width: calc(11.988rem* 0.8);
+    }
+    .group-container12__child1, .group-container12__child2 {
+        width: 144px;
+    }
+    .group-container1__child2 {
+        gap: 1rem;
     }
 }

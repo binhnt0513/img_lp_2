@@ -2,49 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:500,700,400");
 
 @font-face {
-    font-family: 'Senobi Gothic';
-    src: url('../fonts/Senobi-Gothic-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'SenobiGothic-Medium';
-    src: url('../fonts/Senobi-Gothic-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'SenobiGothic-Bold';
-    src: url('../fonts/Senobi-Gothic-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "HiraginoKaku Gothic Pro-W3";
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/hirakinojiao-ko-pr6n-w3.otf') format("opentype");
-}
-
-@font-face {
-    font-family: "NotoSans CJK JP-Bold";
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/notosanscjkjp-bold.otf') format("opentype");
-}
-
-@font-face {
-    font-family: "HiraginoKaku Gothic ProN-W3";
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/noto-sans-condensed-light-italic-nerd-font-complete-mono-windows-compatible.ttf') format("truetype");
-}
-
-
-@font-face {
     font-family: "KozukaGothic Pr6N-R";
     font-style: normal;
     font-weight: 400;
@@ -300,24 +257,6 @@ input:focus {
     text-underline-offset: 0.5em;
 }
 
-.btn {
-    display: inline-block;
-    font-weight: 700;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 2px solid transparent;
-    padding: 0.5rem 1.5rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0.3rem;
-    transition: all 0.2s;
-}
-
 /* SCROLLBAR */
 [dark-scroll]::-webkit-scrollbar {
     width: 10px;
@@ -375,36 +314,6 @@ table, td, th {
 table {
     width: 100%;
     border-collapse: collapse;
-}
-
-.notosansjp-bold-white-18px {
-    color: var(--white);
-    font-family: var(--font-family-noto_sans_jp);
-    font-size: var(--font-size-l);
-    font-style: normal;
-    font-weight: 700;
-}
-
-.notosansjp-bold-licorice-32px-2 {
-    color: var(--licorice);
-    font-family: var(--font-family-noto_sans_jp);
-    font-size: var(--font-size-xxxl);
-}
-
-.notosansjp-bold-licorice-32px {
-    color: var(--licorice);
-    font-family: var(--font-family-noto_sans_jp);
-    font-size: var(--font-size-xxxl);
-    font-style: normal;
-    font-weight: 700;
-}
-
-.notosansjp-bold-black-20px {
-    color: var(--black);
-    font-family: var(--font-family-noto_sans_jp);
-    font-size: var(--font-size-xl);
-    font-style: normal;
-    font-weight: 700;
 }
 
 .text-color-white {
