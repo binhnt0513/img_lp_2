@@ -95,7 +95,7 @@ body {
 }
 
 .group-child92 {
-    right: 19rem;
+    left: calc(50% + 180px);
 }
 
 .section1-wrapper2 {
@@ -109,6 +109,9 @@ body {
     align-items: center;
 }
 
+.dot-group {
+    width: 34.715rem;
+}
 .group-child93 {
     position: relative;
     /*width: 20.75rem;*/
@@ -2618,15 +2621,15 @@ body {
     }
 
     .group-child90 {
-        left: calc(50% + 40px);
+        left: calc(50% + 36px);
     }
 
     .group-child91 {
-        left: calc(50% + 99px);
+        left: calc(50% + 93px);
     }
 
     .group-child92 {
-        left: calc(50% + 72px);
+        left: calc(50% + 67px);
     }
 
     .section1-wrapper3 {
