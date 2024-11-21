@@ -111,12 +111,12 @@ body {
 
 .group-child93 {
     position: relative;
-    width: 20.75rem;
+    /*width: 20.75rem;*/
     height: 5rem;
 }
 
 .b77 {
-    position: absolute;
+    /*position: absolute;*/
     top: -0.318rem;
     left: 1rem;
 }
@@ -133,12 +133,12 @@ body {
 
 .mask-group-1-container {
     position: relative;
-    width: 27.125rem;
-    height: 3.606rem;
+    /*width: 27.125rem;*/
+    height: 4.063rem;
 }
 
 .section1-wrapper3 {
-    width: 49.125rem;
+    /*width: 49.125rem;*/
     height: 5rem;
     display: flex;
     flex-direction: row;
@@ -1297,7 +1297,7 @@ a {
 
 .parent67 {
     position: relative;
-    width: 74.125rem;
+    width: 100%;
     height: 1.188rem;
     text-align: center;
     font-size: 0.875rem;
@@ -1463,13 +1463,6 @@ a {
     }
 }
 
-@media (min-width: 1306px) {
-    .group-container12 {
-        flex-direction: row;
-        height: auto;
-    }
-}
-
 .group-container1 {
     position: absolute;
     top: calc(50% - 24.19px);
@@ -1486,35 +1479,35 @@ a {
 }
 
 .top-menu-pc {
-z-index: 99;
-position: fixed;
-width: 100%;
-height: 5.625rem;
-font-size: 1.125rem;
-color: #131313;
-flex-direction: column;
-align-items: center;
-display: flex;
-background: #f6f6f6;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    height: 5.625rem;
+    font-size: 1.125rem;
+    color: #131313;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background: #f6f6f6;
 }
 
 .lp {
-background-color: #FFFFFF;
-width: 100%;
-text-align: left;
-font-size: 1rem;
-color: #c7c7c7;
-font-family: "Noto Sans JP";
-display: flex;
-align-items: center;
-flex-direction: column;
-position: relative;
-top: -24px;
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+    color: #c7c7c7;
+    font-family: "Noto Sans JP";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -24px;
 }
 
 
 .group-parent146 {
-/* height: 40.188rem; */
+    /* height: 40.188rem; */
     display: flex;
     /*flex-direction: row;*/
     align-items: flex-start;
@@ -2488,6 +2481,62 @@ body {
     padding-right: 1.25rem;
 }
 
+@media (min-width: 1306px) {
+    .group-container12 {
+        flex-direction: row;
+        height: auto;
+    }
+}
+
+@media (max-width: 1305px) {
+    .group-container12, .group-container1__child2 {
+        display: none;
+
+    }
+
+    .group-container22 {
+        display: block;
+        height: 40px;
+        width: 40px;
+
+    }
+
+    .group-container22 img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .ads-img5 {
+        left: 0;
+    }
+
+    .ads-img6 {
+        left: unset;
+        right: 0;
+    }
+
+    .ads-img1, .ads-img1 {
+        width: calc(24.375rem * 0.8);
+        height: calc(18.281rem * 0.8);
+    }
+
+    .ads-img3 {
+        width: calc(17.5rem * 0.8);
+        height: calc(13.438rem * 0.8);
+    }
+
+    .ads-img4 {
+        width: calc(20rem * 0.8);
+        height: calc(17.75rem * 0.8);
+
+    }
+
+    .section1 {
+        width: 80vw;
+    }
+}
+
 @media (max-width: 768px) {
     #stick-btn {
         display: none
@@ -2987,6 +3036,7 @@ body {
         padding-left: 1rem;
         gap: 1.25rem;
     }
+
     .accordion label::after {
         right: 1rem;
     }
@@ -3188,6 +3238,8 @@ body {
 
     .group-container22 {
         display: block;
+        height: 1.313rem;
+        width: 1.313rem;
     }
 
     .group-container1 {
@@ -3210,25 +3262,5 @@ body {
 
     .group-parent99 {
         margin-bottom: 80px !important;
-    }
-}
-@media (max-width: 1100px) {
-    .group-container1 {
-        padding: 0 2rem;
-    }
-    .group-container11 {
-        gap: 2rem;
-    }
-    .b110, .b144 {
-        font-size: 0.875rem;
-    }
-    .group-container1__child1 {
-        width: calc(11.988rem* 0.8);
-    }
-    .group-container12__child1, .group-container12__child2 {
-        width: 144px;
-    }
-    .group-container1__child2 {
-        gap: 1rem;
     }
 }
