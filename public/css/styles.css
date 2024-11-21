@@ -1463,7 +1463,7 @@ a {
     }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1306px) {
     .group-container12 {
         flex-direction: row;
         height: auto;
