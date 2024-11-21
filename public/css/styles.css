@@ -2622,12 +2622,7 @@ body {
     }
 
     .group-child93 {
-        position: absolute;
-        height: 100%;
         width: 41.51%;
-        top: 0;
-        right: 58.49%;
-        bottom: 0;
         left: 1rem;
         max-width: 100%;
         overflow: hidden;
@@ -2635,11 +2630,7 @@ body {
     }
 
     .mask-group-1-container {
-        position: absolute;
-        right: 0.001rem;
-        bottom: 0.013rem;
-        width: 13.494rem;
-        height: 2rem;
+        height: 1.9rem;
     }
 
     .section1-wrapper4 {
