@@ -135,26 +135,24 @@ input:focus {
 }
 
 :root {
-    --azure-radiance: #16859B;
-    --dark-blue: #166F81;
     --black: #000000;
     --blue-charcoal: #010a28;
+    --blue-romance: #d8f4dc;
     --celeste: #cfcfcf;
-    --cyan--aqua: #00d4ff;
-    --gold: #FCE907;
-    --link-water: #d8e8f4;
-    --malibu: #6cccff;
-    --neon-carrot: #ff9831;
-    --regal-blue: #0A4A57;
+    --dove-gray: #707070;
+    --eucalyptus: #217e55;
+    --green-lizard: #b7e72c;
     --shady-lady: #aaaaaa;
+    --silver-chalice: #aeaeae;
+    --gold: #fcc607;
     --white: #ffffff;
     --font-size-l: 19px;
     --font-size-m: 18px;
     --font-size-s: 16px;
     --font-size-xl: 24px;
-    --font-size-xs: 12px;
-    --font-size-xxl: 36px;
-    --font-size-xxxl: 40px;
+    --font-size-xxl: 34px;
+    --font-size-xxxl: 36px;
+    --font-size-xxxxl: 40px;
     --font-family-hiraginokaku_gothic_pro-w3: "HiraginoKaku Gothic Pro-W3", Helvetica;
     --font-family-hiraginokaku_gothic_pro-w6: "HiraginoKaku Gothic Pro-W6", Helvetica;
     --font-family-hiraginokaku_gothic_pron-w3: "HiraginoKaku Gothic ProN-W3", Helvetica;
@@ -181,8 +179,8 @@ input:focus {
 
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -211,9 +209,9 @@ input:focus {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
     .container {
-        max-width: 1200px;
+        max-width: 1280px;
     }
 }
 
@@ -322,13 +320,4 @@ input:focus {
 
 .text-center {
     text-align: center !important;
-}
-
-table, td, th {
-    border: 1px solid;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
 }

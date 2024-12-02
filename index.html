@@ -13,6 +13,10 @@
     <meta property="og:site_name" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="./public/css/global.css">
     <link rel="stylesheet" href="./public/css/homepage.css">
     <link rel="stylesheet" href="./public/css/layout.css">
@@ -38,23 +42,21 @@
             </div>
         </div>
         <div class="container top-container">
-            <div class="grid-container">
-                <div class="flex-container top-container-padding">
+            <div class="top-container-left flex-box1">
+                <img src="./public/img/section1-img5.png" alt="">
+            </div>
+            <div class="grid-container flex-box2">
+                <div class="flex-container">
                     <div class="group-title-1">
                         <div class="text_label-1 text_label">
-                            とりあえずLPが必要になったらこれ！
+                            商品・製品検索ページ付き
                         </div>
                         <div class="rectangle"></div>
                     </div>
                 </div>
-<!--                <div class="title-2 top-container-padding">-->
-<!--                    <h1 class="text_label-2">高品質<span class="font-size-56">なのに</span><br-->
-<!--                            class="for-sp"> 驚き<span class="font-size-56">の</span>低価格<span-->
-<!--                            class="font-size-56">を</span>実現！</h1>-->
-<!--                </div>-->
-                <div class="title-3 top-container-padding">
-                    <h1 class="text-logo">IMG-PKG</h1>
-                    <img src="./public/img/top-logo.png">
+                <div class="title-2 top-container-padding">
+                    <h1 class="text_label-2">IMG-PKG<br class="for-sp"><span class="font-size-55">for</span>Inderstory
+                    </h1>
                 </div>
                 <div class="title-4 top-container-padding">
                     <img class="img" src="./public/img/section1-img1.png" alt="">
@@ -66,11 +68,13 @@
                     <img src="./public/img/badge_pc.png" class="forpc">
                     <img src="./public/img/badge_sp.png" class="for-sp">
                 </div>
-                <div class="forpc top-container-padding top-btn" style="text-align: center">
-                    <a href="#form-1" class="btn btn-gold-large btn-gold" target="">無料相談はこちら！</a>
+            </div>
+            <div class="top-container-btn flex-box3">
+                <div class="top-btn btn-box1">
+                    <a href="#form-2" class="btn btn-clear" target="_self">資料請求はこちら！</a>
                 </div>
-                <div class="forpc top-container-padding top-btn" style="text-align: center">
-                    <a href="#form-2" class="btn btn-clear" target="">資料請求はこちら！</a>
+                <div class="top-btn btn-box2">
+                    <a href="#form-1" class="btn btn-gold-large btn-gold" target="_self">無料相談はこちら！</a>
                 </div>
             </div>
         </div>
@@ -83,7 +87,7 @@
                 <div class="grid-col">
                     <div class="item">
                         <div class="triangle-under-field">
-                            <span>コンテンツを増やして<br>SEOをあげたい</span>
+                            <span>製品が多すぎて、欲しい<br>情報を見つけられない…</span>
                         </div>
                     </div>
                     <div class="item"><img src="./public/img/section2-img1.png" alt=""></div>
@@ -91,7 +95,7 @@
                 <div class="grid-col">
                     <div class="item ">
                         <div class="triangle-under-field">
-                            <span>事業サービスを<br>増やしたい</span>
+                            <span>製品ページが<br>見づらいと言われる…</span>
                         </div>
                     </div>
                     <div class="item"><img src="./public/img/section2-img2.png" alt=""></div>
@@ -99,44 +103,64 @@
                 <div class="grid-col">
                     <div class="item ">
                         <div class="triangle-under-field">
-                            <span>構成やライティングも<br>お任せしたい</span>
+                            <span>手動での更新が手間！<br>もっと効率的に管理したい…</span>
                         </div>
                     </div>
                     <div class="item"><img src="./public/img/section2-img3.png" alt=""></div>
                 </div>
+                <div class="grid-col">
+                    <div class="item ">
+                        <div class="triangle-under-field">
+                            <span>自社内で撮影できない</span>
+                        </div>
+                    </div>
+                    <div class="item"><img src="./public/img/section2-img4.png" alt=""></div>
+                </div>
             </div>
         </div>
-        <div class="container"  id="menu-2">
-            <h2 class="group-label text-left sub-group-label"><span class="text-color-aqua">IMG</span>-PKG LPとは？</h2>
+        <div class="container" id="menu-2">
+            <h2 class="group-label text-left sub-group-label"><span class="text-color-aqua">IMG</span>PKG for
+                Inderstoryとは？</h2>
             <div class="rectangle"></div>
+            <p class="desc">
+                製品情報を効率的に管理！今こそ導入したいパッケージプラン
+            </p>
             <p class="group-content-2">
-                「高品質で低価格」を実現したWEBサイト制作サービスのLP（ランディングページ）版です！LPに必要なコンテンツををお得なパッケージプランにいたしました。お選びいただいたプランから追加費用は一切発生しません。
+                更新システムと製品検索機能がセットになった本パッケージプランでは、手間のかかる更新作業を効率化し、最新の情報を簡単に反映することができます。
                 <br class="forpc">
-                当社が長年培ったインターネット・マーケティングの経験とノウハウを活かし、お客様のブランドやビジョンに寄り添った提案、ニーズに最適なソリューションを提供いたします。
+                また、製品検索機能が付いているため、取り扱う商品が多い場合でもお客様がスムーズに求める情報にたどり着ける設計が可能です。
+                <br class="forpc">
+                お客様満足度があがることで信頼性や売上アップにもつながります。さらに、パッケージプランとなっているため、コストを気にする企業様でも導入しやすく、費用対効果の高さを実感していただける内容です。
             </p>
             <div class="group-content-3">
                 <div class="group-col">
                     <div class="flex-container">
                         <img src="./public/img/section2-icon1.png" alt="" width="197">
                     </div>
-                    <h2 class="sub-label">初期構築費<span class="text-color-aqua">8万円！</span></h2>
+                    <h2 class="sub-label"><span class="text-color-aqua">88万円</span>の料金設定！</h2>
                     <p class="text-detail">
-                        なんと初期費用が8万円という低価格で魅力の伝わるLP制作を実現いたします。お選びいただいたプラン料金から追加費用はいただきません。ご要望に応じてプラン外のページが必要な場合は別途お見積りいたします。<br>
-                        ホームページを作りたいけど、予算は低価格で抑えたい！という
-                        お客様は、ぜひ一度ご相談ください。
+                        88万円の低価格で魅力を伝える製品検索機能付きWEBサイト制作を実現いたします。
+                        <br>
+                        お選びいただいたプラン料金から追加費用はいただきません。
+                        <br>
+                        ご要望に応じて、プラン外のカスタマイズや追加機能が必要な場合は別途お見積りいたします。
+                        <br>
+                        「ホームページを作りたいけれど、予算は低価格に抑えたい」「製品情報をもっと見やすく整理したい」というお客様は、ぜひ一度ご相談ください。
                     </p>
                 </div>
                 <div class="group-col">
                     <div class="flex-container">
                         <img src="./public/img/section2-icon2.png" alt="" width="197">
                     </div>
-                    <h2 class="sub-label"><span class="text-color-aqua">高品質デザインで短納期</span>を実現！</h2>
+                    <h2 class="sub-label"><span class="text-color-aqua">管理画面</span>から<span class="text-color-aqua">製品の登録</span>や<span
+                            class="text-color-aqua">変更</span>、<br><span class="text-color-aqua">削除</span>が<span
+                            class="text-color-aqua">可能</span>に！</h2>
                     <p class="text-detail">
-                        テンプレートをカスタマイズするシステムを採用し、
-                        高品質のデザインかつ短納期を実現します。
-                        <br><br>
-                        ユーザーから見た使いやすさと、テンプレートをベースにしながらも、お客様の要望やブランドイメージに合わせてカスタマイズを
-                        行い、オリジナリティあふれるWEBサイトを作り上げます。
+                        手軽に操作できる管理画面を標準装備。
+                        <br>
+                        製品の登録や情報の変更、不要な製品の削除も、専門知識がなくても簡単に行えます。
+                        <br>
+                        最新の情報を素早く反映できるだけでなく、商品情報を常に整理整頓された状態で管理可能です。忙しい現場でも効率的に更新作業を進められます。
                     </p>
                 </div>
             </div>
@@ -149,73 +173,235 @@
                     </div>
                     <h2 class="group-label">お気軽にご相談ください！</h2>
                     <div>
-                        <a href="#form-1" target="" class="btn btn-gold btn-gold-medium">お問合せ</a>
+                        <a href="#form-1" target="" class="btn btn-gold btn-gold-medium">お問い合わせ</a>
                     </div>
                     <div>
-                        <a href="#form-2" target="" class="btn btn-clear">資料請求はこちら</a>
+                        <a href="#form-2" target="" class="btn btn-clear btn-clear-medium">資料請求はこちら！</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container" id="menu-3">
             <div class="group-content-5">
-                <h2 class="group-label"><span class="text-color-aqua">IMG</span>-PKG LPの中身</h2>
+                <h2 class="group-label"><span class="text-color-aqua">IMG</span>-PKG for Ingerstoryの中身</h2>
                 <div class="margin-center">
                     <div class="rectangle"></div>
                 </div>
                 <p class="text-detail">
-                    完全定額のLP（ランディングページ）制作サービスです。<br>
-                    お選びいただいたプランの金額から追加費用は一切発生しません。<br>
+                    完全定額のホームページ制作サービスです。<br>
+                    お選びいただいたプランの金額から追加費用は<br class="for-sp"> 一切発生しません。<br>
                     ※プランに含まない内容は別途お見積りいたします。<br>
                 </p>
             </div>
         </div>
         <div class="container bot-container">
-            <h2 class="group-label">初期構築費用がなんと<span class="text-color-gold-huge">8</span><span
-                    class="text-color-gold-normal">万円</span></h2>
             <div class="group-content-6">
-                <div class="table-container">
-                    <table class="margin-center">
-                        <tr class="table-row">
-                            <th class="col-1">デザインテンプレート</th>
-                            <th class="col-2">
-                                <p>〇</p>
-                            </th>
+                <div class="table-container forpc">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th class="standard">スタンダード</th>
+                            <th class="premium">プレミアム</th>
                         </tr>
-                        <tr class="table-row">
-                            <th class="col-1">掲載項目</th>
-                            <th class="col-2">
-                                <p>7つまで掲載可能</p>
-                            </th>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="border-radius-left">基本構築費</td>
+                            <td><b style="font-size: 24px">88万円（税別）</b></td>
+                            <td><b style="font-size: 24px">108万円（税別）</b></td>
                         </tr>
-                        <tr class="table-row">
-                            <th class="col-1">スマートフォン対応</th>
-                            <th class="col-2">
-                                <p>〇</p>
-                            </th>
+                        <tr>
+                            <td>TOPページデザイン</td>
+                            <td>〇</td>
+                            <td>〇</td>
                         </tr>
-                        <tr class="table-row">
-                            <th class="col-1">撮影について</th>
-                            <th class="col-2">
-                                <p>撮影は含まれません。<br>写真をご提供いただくか<br class="for-sp">別途ご依頼ください。</p>
-                            </th>
+                        <tr>
+                            <td>下層ページ数</td>
+                            <td>
+                                下層ページ8ページ<br>＋追加2ページまで無料
+                                <hr class="horizontal-line">
+                                追加1ページ 50,000円（税別）
+                            </td>
+                            <td>
+                                下層ページ８ページ<br>＋追加３ページまで無料
+                                <hr class="horizontal-line">
+                                追加１ページ　50,000円（税別）
+                            </td>
                         </tr>
-                        <tr class="table-row">
-                            <th class="col-1">システム構築　<br class="for-sp">お問合せフォーム設置</th>
-                            <th class="col-2">
-                                <p>〇</p>
-                            </th>
+                        <tr>
+                            <td>スマホ対応</td>
+                            <td>〇</td>
+                            <td>〇</td>
                         </tr>
-                        <tr class="table-row">
-                            <th class="col-1">システム構築　<br class="for-sp">新着情報更新システム設置</th>
-                            <th class="col-2">
-                                <p>〇</p>
-                                <p class="note">※詳細ページなし、<br class="for-sp">TOPページ表示更新のみ</p>
-                            </th>
+                        <tr>
+                            <td>オフィス内撮影<br>商品撮影に変更可能</td>
+                            <td>スチール撮影５時間<br>（静止画のみ）<br>※延長１時間：15,000円（税別）<br>※撮影枚数制限なし
+                            </td>
+                            <td>スチール動画撮影５時間<br>（動画はトップページMVエリアに再生される10秒ほどの短い動画のみ）<br>
+                                ※延長１時間：25,000円（税別）<br>
+                                ※撮影枚数制限なし
+                            </td>
                         </tr>
-                        <tr class="table-row">
-                            <th class="col-3" colspan="2">※その他の追加コンテンツは全てお見積りとなります。悪しからずご了承ください。</th>
+                        <tr>
+                            <td>商品登録</td>
+                            <td>250点まで<br>※１点追加：500円（税別）</td>
+                            <td>500点まで<br>※１点追加：500円（税別）</td>
                         </tr>
+                        <tr>
+                            <td>問合せ<br>メールフォーム設置
+                            </td>
+                            <td>〇</td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>採用<br>エントリーフォーム設置
+                            </td>
+                            <td>〇</td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>お知らせ更新システム</td>
+                            <td>〇</td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>募集要項更新システム</td>
+                            <td>〇</td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>更新システム追加設置</td>
+                            <td>更新システム追加１ページ<br>15万円（税別）</td>
+                            <td class="border-bottom-td">更新システム追加１ページ<br>15万円（税別）</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table-container table-container-sp-1 for-sp">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th class="standard" colspan="2">スタンダード</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="">基本構築費</td>
+                            <td><b style="font-size: 18px">88万円（税別）</b></td>
+                        </tr>
+                        <tr>
+                            <td>TOPページデザイン</td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>下層ページ数</td>
+                            <td>
+                                下層ページ8ページ<br>＋追加2ページまで無料
+                                <hr class="horizontal-line">
+                                追加1ページ 50,000円（税別）
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>スマホ対応</td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>オフィス内撮影<br>商品撮影に変更可能</td>
+                            <td>スチール撮影５時間<br>（静止画のみ）<br>※延長１時間：15,000円（税別）<br>※撮影枚数制限なし
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>商品登録</td>
+                            <td>250点まで<br>※１点追加：500円（税別）</td>
+                        </tr>
+                        <tr>
+                            <td>問合せ<br>メールフォーム設置
+                            </td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>採用<br>エントリーフォーム設置
+                            </td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>お知らせ更新システム</td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>募集要項更新システム</td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td style="border-bottom-left-radius: 20px">更新システム追加設置</td>
+                            <td style="border-bottom-right-radius: 20px">更新システム追加１ページ<br>15万円（税別）</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table-container table-container-sp-2 for-sp">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th class="premium" colspan="2">プレミアム</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>基本構築費</td>
+                            <td><b style="font-size: 24px">108万円（税別）</b></td>
+                        </tr>
+                        <tr>
+                            <td>TOPページデザイン</td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>下層ページ数</td>
+                            <td>
+                                下層ページ８ページ<br>＋追加３ページまで無料
+                                <hr class="horizontal-line">
+                                追加１ページ　50,000円（税別）
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>スマホ対応</td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>オフィス内撮影<br>商品撮影に変更可能</td>
+                            <td>スチール動画撮影５時間<br>（動画はトップページMVエリアに再生される10秒ほどの短い動画のみ）<br>
+                                ※延長１時間：25,000円（税別）<br>
+                                ※撮影枚数制限なし
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>商品登録</td>
+                            <td>500点まで<br>※１点追加：500円（税別）</td>
+                        </tr>
+                        <tr>
+                            <td>問合せ<br>メールフォーム設置
+                            </td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>採用<br>エントリーフォーム設置
+                            </td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>お知らせ更新システム</td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>募集要項更新システム</td>
+                            <td>〇</td>
+                        </tr>
+                        <tr>
+                            <td>更新システム追加設置</td>
+                            <td class="border-bottom-td">更新システム追加１ページ<br>15万円（税別）</td>
+                        </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
@@ -229,7 +415,7 @@
                     <div class="rectangle"></div>
                 </div>
                 <p class="text-center text-detail">
-                    LPに関するご相談をいただいてから制作・納品までの簡単な流れです。<br>
+                    WEBサイトに関するご相談をいただいてから制作・納品までの簡単な流れです。<br>
                     各作業段階でお聞きする事や必要な資料についても説明いたします。
                 </p>
             </div>
@@ -243,8 +429,7 @@
                     <div class="detail-right">
                         <p class="title">お問合せ</p>
                         <p class="desc">
-                            まずは、お電話またはお問合せフォームからお気軽にお問合せ下さい。お問合せフォームから<br class="forpc">
-                            ご依頼・ご相談された方には、内容を確認させていただき、改めてご連絡させて頂きます。
+                            まずは、お電話またはお問い合わせフォームからお気軽にお問い合わせ下さい。お問合せフォームからご依頼・ご相談された方には、内容を確認させていただき、改めてご連絡させて頂きます。
                         </p>
                     </div>
                 </div>
@@ -276,7 +461,7 @@
                     <div class="detail-right">
                         <p class="title">ご提案</p>
                         <p class="desc">
-                            ヒアリングさせていただいた内容をもとに、構成プラン（ワイヤーフレーム）とお見積もりを作成します。
+                            ヒヤリングさせていただいた内容をもとに、構成プラン（サイトマップ、ワイヤーフレーム）とお見積もりを作成します。
                         </p>
                     </div>
                 </div>
@@ -306,10 +491,11 @@
                         </div>
                     </div>
                     <div class="detail-right">
-                        <p class="title">デザイン作成</p>
+                        <p class="title">デザイン作成・商品250点登録</p>
                         <p class="desc">
                             デザイン案を作成いたします。<br>
-                            また、お客様側でホームページ制作に必要な原稿資料（パンフレット・文章テキスト・ロゴマーク・その他資料）のご準備をお願いいたします。
+                            また、お客様側でホームページ制作に必要な原稿資料（パンフレット・文章テキスト・ロゴマーク・その他資料）のご準備をお願いいたします。<br>
+                            250点商品登録を行えますので商品情報のご提供をお願いいたします。
                         </p>
                     </div>
                 </div>
@@ -323,10 +509,10 @@
                         </div>
                     </div>
                     <div class="detail-right">
-                        <p class="title">コーディング</p>
+                        <p class="title">撮影</p>
                         <p class="desc">
-                            デザインの作成が完了しましたら、サイトの構築作業を開始いたします。<br>
-                            サイトの構築作業が完了しましたら弊社テストサーバーにアップし、実際の動作確認や、最終的なデザイン・文章のご確認をお願いいたします。
+                            プロのカメラマンがホームページに使用する写真を撮影いたします。<br>
+                            撮影する商品などのご準備をお願いいたします。
                         </p>
                     </div>
                 </div>
@@ -340,10 +526,25 @@
                         </div>
                     </div>
                     <div class="detail-right">
-                        <p class="title">公開・納品</p>
+                        <p class="title">コーディング</p>
                         <p class="desc">
-                            最終確認完了後、本サーバーにアップし、公開・納品となります。
+                            デザインの作成が完了しましたら、サイトの構築作業を開始致します。<br>
+                            サイトの構築作業が完了しましたら弊社テストサーバーにアップし、実際の動作確認や、最終的なデザイン・文章のご確認をお願い致します。
                         </p>
+                    </div>
+                </div>
+                <div class="triangle">
+                    <img src="./public/img/section3-icon2.png" height="25">
+                </div>
+                <div class="content-8-detail">
+                    <div class="detail-left">
+                        <div class="dove-icon">
+                            <span>08</span>
+                        </div>
+                    </div>
+                    <div class="detail-right">
+                        <p class="title">公開・納品</p>
+                        <p class="desc">最終確認完了後、本サーバーにアップし、公開・納品となります。</p>
                     </div>
                 </div>
             </div>
@@ -359,7 +560,7 @@
                         <a href="#form-1" target="" class="btn btn-gold btn-gold-medium">お問合せ</a>
                     </div>
                     <div>
-                        <a href="#form-2" target="" class="btn btn-clear">資料請求はこちら</a>
+                        <a href="#form-2" target="" class="btn btn-clear btn-clear-medium">資料請求はこちら</a>
                     </div>
                 </div>
             </div>
@@ -436,7 +637,7 @@
                     <textarea id="field7" name="field7" class="form-item-input" placeholder="お問合せ内容"
                               rows="11"></textarea>
                 </div>
-                <div class="form-item">
+                <div class="form-item form-item-last">
                     <label for="field8" class="form-item-label"><a
                             class="text-underline" href="https://img-flow.com/privacy/"
                             target="_blank">個人情報保護方針</a><span
@@ -488,7 +689,7 @@
                     <input type="text" id="field26" name="field6" class="form-item-input"
                            placeholder="img-flow＠img-flow.com">
                 </div>
-                <div class="form-item">
+                <div class="form-item form-item-last">
                     <label for="field28" class="form-item-label"><a
                             class="text-underline" href="https://img-flow.com/privacy/"
                             target="_blank">個人情報保護方針</a><span
@@ -501,6 +702,28 @@
                 </div>
                 <div class="form-item-action">
                     <a href="#" class="btn btn-gold btn-orange" target="_blank">確認画面へ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-4">
+        <div class="container">
+            <div class="group-content-9">
+                <h2 class="group-label">IMG-flowの<span class="text-color-aqua">サービス</span></h2>
+                <div class="margin-center">
+                    <div class="rectangle"></div>
+                </div>
+                <p class="text-center text_desc">
+                    企業様にサポートできるサービスを展開しています。
+                </p>
+            </div>
+            <div class="slider-container" id="slider">
+                <div class="slider">
+                    <div><img src="./public/img/slider-img1.png" alt=""> </div>
+                    <div><img src="./public/img/slider-img2.png" alt=""> </div>
+                    <div><img src="./public/img/slider-img3.png" alt=""> </div>
+                    <div><img src="./public/img/slider-img4.png" alt=""> </div>
+                    <div><img src="./public/img/slider-img5.png" alt=""> </div>
                 </div>
             </div>
         </div>
@@ -526,14 +749,49 @@
     </div>
     <div id="sideMenu" class="side-menu">
         <a class="menu-link" href="#menu-1" onclick="navigateToSection(event)">このようなお悩みありませんか？</a>
-        <a class="menu-link" href="#menu-2" onclick="navigateToSection(event)">IMG-PKG LPとは？</a>
-        <a class="menu-link" href="#menu-3" onclick="navigateToSection(event)">IMG-PKG LPの中身</a>
+        <a class="menu-link" href="#menu-2" onclick="navigateToSection(event)">IMG-PKG for Inderstoryとは？</a>
+        <a class="menu-link" href="#menu-3" onclick="navigateToSection(event)">IMG-PKG for Ingerstoryの中身</a>
         <a class="menu-link" href="#menu-4" onclick="navigateToSection(event)">相談から納品までの流れ</a>
-        <a class="menu-link" href="#form-2" onclick="navigateToSection(event)">資料請求</a>
-        <div class="menu-btn">
-            <a href="#form-1" class="btn btn-gold" onclick="navigateToSection(event)">無料相談</a>
-        </div>
+        <a class="menu-link" href="#form-1" onclick="navigateToSection(event)">資料請求</a>
+        <a class="menu-link" href="#form-2" onclick="navigateToSection(event)">無料相談</a>
+        <a class="menu-link" href="#slider" onclick="navigateToSection(event)">IMG-flowのサービス</a>
     </div>
 </main>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.slider').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      dots: false,
+      centerMode: true,
+      variableWidth: true,
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 1385,
+          settings: {
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        },
+      ]
+    });
+  });
+</script>
 </body>
 </html>
