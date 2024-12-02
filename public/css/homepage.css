@@ -1233,7 +1233,7 @@ table td:last-child, table th:last-child {
 
 @media (max-width: 768px) {
     .slider-container {
-        width: 430px;
+        width: 400px;
         margin: auto;
     }
     .slick-prev {
