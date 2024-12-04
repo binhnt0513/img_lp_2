@@ -282,21 +282,6 @@
 }
 
 
-.section-1 .title-5 .text_label-5 {
-    background-color: var(--regal-blue);
-    border-radius: 10px;
-    color: var(--white);
-    font-family: var(--font-family-senobigothic-medium);
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 500;
-    letter-spacing: 0.00px;
-    text-align: center;
-    white-space: break-spaces;
-    padding: 12px;
-    display: inline-block;
-}
-
 .group-label {
     color: var(--white);
     font-family: var(--font-family-senobi_gothic);
@@ -379,11 +364,12 @@
     width: 100%;
     border-radius: 10px;
     max-width: 290px;
-    line-height: 1.75;
-    min-height: 60px;
+    line-height: 1.5;
+    min-height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 .triangle-under-field:after {
@@ -408,11 +394,12 @@
 .desc {
     color: var(--white);
     font-family: var(--font-family-noto_sans_jp);
-    font-size: 25px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     text-align: left;
     padding: 32px 0;
+    line-height: 1.5rem;
 }
 
 .group-content-2 {
@@ -484,20 +471,6 @@
     line-height: 48px;
     text-align: center;
     display: inline;
-}
-
-.bot-container .group-content-6 {
-    /*padding-top: 30px;*/
-}
-
-.bot-container .text-color-gold-huge {
-    color: var(--neon-carrot);
-    font-family: var(--font-family-senobigothic-bold);
-    font-size: 120px;
-    font-style: normal;
-    letter-spacing: -12.00px;
-    line-height: 1;
-    text-align: center;
 }
 
 .bot-container .text-color-gold-normal {
@@ -820,7 +793,7 @@ table td:last-child, table th:last-child {
 
 .copy-right {
     text-align: center;
-    background-color: var(--blue-charcoal);
+    background-color:  #124F33;
     color: var(--white);
     font-family: var(--font-family-noto_sans_jp);
     font-size: var(--font-size-s);
@@ -1128,6 +1101,7 @@ table td:last-child, table th:last-child {
 }
 .slider-container {
     padding-top: 52px;
+    margin: 0 60px;
 }
 .slick-slide {
     margin: 0 12.5px;
@@ -1150,6 +1124,15 @@ table td:last-child, table th:last-child {
 .slick-next:before {
     color:#B7E72C;
     font-size: 45px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: normal;
+}
+.price-bold {
+    font-size: 24px;
+    font-weight: bold;
 }
 @media (max-width: 1599px) {
     .section-1 .grid-container {
@@ -1176,7 +1159,7 @@ table td:last-child, table th:last-child {
 
 @media (max-width: 1279px) {
     .section-1 .text_label-2 {
-        font-size: 72px;
+        font-size: 62px;
     }
 
     .group-content-1, .group-content-3 {
@@ -1233,7 +1216,7 @@ table td:last-child, table th:last-child {
 
 @media (max-width: 768px) {
     .slider-container {
-        width: 400px;
+        width: 390px;
         margin: auto;
     }
     .slick-prev {
@@ -1298,7 +1281,10 @@ table td:last-child, table th:last-child {
 
     .form-item {
         line-height: 24px;
-        flex-direction: column !important;
+        flex-direction: column;
+    }
+    .form-item-last {
+        flex-direction: row;
     }
 
     .form-item .form-item-label, .form-item input, .form-item select {
@@ -1334,6 +1320,11 @@ table td:last-child, table th:last-child {
 
     .sub-label {
         font-size: 20px;
+        line-height: 1.5rem;
+    }
+
+    .group-content-7, .group-content-9 {
+        gap: 20px;
     }
 
     .group-content-8 .detail-right .title {
@@ -1502,13 +1493,6 @@ table td:last-child, table th:last-child {
         border-bottom: 1px solid #B7E72C;
     }
 
-    .section-1 {
-        /*background: url(../img/section1-bg-sp.png) center;*/
-    }
-
-    .section-1 .header {
-        padding: 0 24px;
-    }
 
     .header-container {
         position: fixed;
@@ -1593,6 +1577,14 @@ table td:last-child, table th:last-child {
     .rectangle {
         height: 3px;
         width: 30px;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+    .price-bold {
+        font-size: 18px;
+        font-weight: bold;
     }
 }
 
