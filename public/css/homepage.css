@@ -1338,6 +1338,15 @@ table td:last-child, table th:last-child {
 
     .group-content-8 .detail-right .title {
         font-size: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 43px;
+    }
+    .group-content-8 .detail-right .title .dove-icon {
+        float: left;
+        width: 43px;
+        height: 43px;
+        margin-right: 15px;
     }
 
     .group-content-8 .detail-right .desc {
