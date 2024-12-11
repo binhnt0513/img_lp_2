@@ -5,7 +5,7 @@
 }
 
 .section-1 {
-    background: url(../img/section1-bg.png) right center;
+    background: var(--eucalyptus) url(../img/section1-bg.png) right center;
     width: 100%;
     background-size: cover;
     padding-top: 1em;
@@ -113,6 +113,7 @@
 }
 
 .btn-clear {
+    background: #217E55;
     font-size: 34px;
     max-width: 524px;
     width: 100%;
@@ -184,7 +185,7 @@
 }
 
 .section-1 .text_label-1 {
-    background-color: transparent;
+    background-color: #125537;
     border: 2px solid;
     border-color: var(--white);
     border-radius: 16px;
@@ -297,12 +298,15 @@
 .sub-label {
     color: var(--white);
     font-family: var(--font-family-senobi_gothic);
-    font-size: var(--font-size-xxl);
+    font-size: 36px;
     letter-spacing: 0.00px;
     line-height: 45px;
     text-align: left;
     font-weight: 700;
     white-space: break-spaces;
+}
+.sub-label .text-color-aqua {
+    font-size: 40px;
 }
 
 .text-detail {
@@ -317,7 +321,7 @@
 }
 
 .text-color-aqua {
-    color: #ADD832;
+    color: #B7E72C;
 }
 
 .section-2 {
@@ -672,7 +676,6 @@ table td:last-child, table th:last-child {
     font-weight: 700;
     letter-spacing: 0.00px;
     line-height: 16px;
-    margin-left: -14px;
 }
 
 .group-content-8 .detail-right {
@@ -860,6 +863,9 @@ table td:last-child, table th:last-child {
     line-height: 46px;
 }
 
+.table-container .text-underline-pc {
+    text-decoration: underline solid #FCC607 50%;
+}
 
 .text-underline-pc {
     text-decoration: underline solid #B7E72C 50%;
@@ -1319,8 +1325,11 @@ table td:last-child, table th:last-child {
     }
 
     .sub-label {
-        font-size: 20px;
+        font-size: 22px;
         line-height: 1.5rem;
+    }
+    .sub-label .text-color-aqua {
+        font-size: 24px;
     }
 
     .group-content-7, .group-content-9 {
