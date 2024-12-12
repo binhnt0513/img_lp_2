@@ -1350,9 +1350,12 @@ table td:last-child, table th:last-child {
 
     .group-content-8 .detail-right .title {
         font-size: 20px;
-        display: inline-block;
+        display: flex;
         vertical-align: middle;
         line-height: 43px;
+    }
+    .group-content-8 .detail-right .for-sp {
+        margin: auto 0;
     }
     .group-content-8 .detail-right .title .dove-icon {
         float: left;
@@ -1385,8 +1388,8 @@ table td:last-child, table th:last-child {
     }
 
     .section-1 .text_label-2 {
-        font-size: 46px;
-        line-height: 66px;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
         letter-spacing: 0;
     }
 
