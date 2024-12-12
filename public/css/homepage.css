@@ -742,7 +742,7 @@ table td:last-child, table th:last-child {
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    height: 46px;
+    height: 40px;
     letter-spacing: 0.00px;
     line-height: 1;
     text-align: center;
@@ -865,13 +865,14 @@ table td:last-child, table th:last-child {
 }
 
 .table-container .text-underline-pc {
-    text-decoration: underline solid #FCC607 50%;
+    line-height: 5px;
+    border-bottom: 9px solid  #FCC607;
 }
 
 .text-underline-pc {
-    text-decoration: underline solid #B7E72C 50%;
-    text-underline-offset: -5px;
-    text-decoration-skip-ink: none;
+    line-height: 30px;
+    border-bottom: 20px solid #B7E72C;
+    display: inline-block;
 }
 
 .text-underline-sp {
