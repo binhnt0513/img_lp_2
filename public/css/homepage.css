@@ -1352,7 +1352,7 @@ table td:last-child, table th:last-child {
         font-size: 20px;
         display: flex;
         vertical-align: middle;
-        line-height: 43px;
+        line-height: 1.5rem;
     }
     .group-content-8 .detail-right .for-sp {
         margin: auto 0;
