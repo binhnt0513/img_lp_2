@@ -1354,7 +1354,7 @@ table td:last-child, table th:last-child {
         vertical-align: middle;
         line-height: 1.5rem;
     }
-    .group-content-8 .detail-right .for-sp {
+    .group-content-8 .detail-right span {
         margin: auto 0;
     }
     .group-content-8 .detail-right .title .dove-icon {
