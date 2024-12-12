@@ -1558,6 +1558,8 @@ table td:last-child, table th:last-child {
 
     .section-1 {
         padding: 25px 0 60px 0;
+        background: var(--eucalyptus) url(../img/section1-bg-sp.png);
+        background-size: cover;
     }
 
     .section-1 .title-2 {
