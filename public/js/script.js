@@ -1,8 +1,11 @@
 function toggleMenu() {
   const menuIcon = document.getElementById("menuBtn");
   const menu = document.getElementById("sideMenu");
+  const body = document.body;
+
   menuIcon.classList.toggle("change");
   menu.classList.toggle("open");
+  body.classList.toggle("no-scroll"); // Ngăn hoặc khôi phục cuộn khi mở/đóng menu
 }
 
 function navigateToSection(event) {

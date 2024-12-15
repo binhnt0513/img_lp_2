@@ -648,7 +648,7 @@
         </div>
     </div>
     <div class="section section-4">
-        <div class="container">
+        <div class="container" id="form-1">
             <div class="group-content-9">
                 <h2 class="group-label">お問合せフォーム</h2>
                 <div class="margin-center">
@@ -659,7 +659,7 @@
                     <span class="note">※は必須事項です</span>
                 </p>
             </div>
-            <div class="group-content-10 form-group" id="form-1">
+            <div class="group-content-10 form-group">
                 <div class="form-item">
                     <label for="field1" class="form-item-label">お問合せ項目<span class="label-require">※</span>
                     </label>
@@ -715,7 +715,7 @@
         </div>
     </div>
     <div class="section section-5">
-        <div class="container">
+        <div class="container" id="form-2">
             <div class="group-content-9">
                 <h2 class="group-label">資料請求フォーム</h2>
                 <div class="margin-center">
@@ -726,7 +726,7 @@
                     <span class="note">※は必須事項です</span>
                 </p>
             </div>
-            <div class="group-content-10 form-group" id="form-2">
+            <div class="group-content-10 form-group">
                 <div class="form-item">
                     <label for="field22" class="form-item-label">会社名<span class="label-require">※</span> </label>
                     <input type="text" id="field22" name="field2" class="form-item-input"
@@ -767,7 +767,7 @@
         </div>
     </div>
     <div class="section section-4">
-        <div class="container">
+        <div class="container" id="slider">
             <div class="group-content-9">
                 <h2 class="group-label">IMG-flowの<span class="text-color-aqua">サービス</span></h2>
                 <div class="margin-center">
@@ -777,7 +777,7 @@
                     企業様にサポートできるサービスを展開しています。
                 </p>
             </div>
-            <div class="slider-container" id="slider">
+            <div class="slider-container">
                 <div class="slider">
                     <div><img src="./public/img/slider-img1.png" alt=""></div>
                     <div><img src="./public/img/slider-img2.png" alt=""></div>
@@ -850,6 +850,20 @@
                     }
                 },
             ]
+        });
+
+        $(function () {
+            $(".menu-btn").click(function () {
+                // トリガーをクリックした時の条件分岐
+                if ($(this).hasClass("is-active")) {
+                    // ナビを閉じるときの処理
+                    $("html").removeClass("is-fixed"); // 背景固定解除！
+                } else {
+                    // ナビを開くときの処理
+                    $("html").addClass("is-fixed"); // 背景固定！
+                }
+                $(".ham").toggleClass("is-active");
+            });
         });
     });
 </script>

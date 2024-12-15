@@ -321,3 +321,7 @@ input:focus {
 .text-center {
     text-align: center !important;
 }
+
+.no-scroll {
+    overflow: hidden;
+}
