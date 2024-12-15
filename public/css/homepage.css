@@ -1558,7 +1558,7 @@ table td:last-child, table th:last-child {
     .top-container {
         flex-direction: column;
         gap: 25px;
-        padding-top: 45px;
+        padding-top: 65px;
     }
 
     .grid-container {
