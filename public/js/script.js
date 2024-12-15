@@ -15,8 +15,12 @@ function navigateToSection(event) {
   const targetSection = document.querySelector(targetId);  // Find the target section by ID
 
   if (targetSection) {
+    const offset = 60;
+    const elementPosition = targetSection.getBoundingClientRect().top + window.scrollY;
+    const targetPosition = elementPosition - offset;
     // Scroll to the target section smoothly
-    targetSection.scrollIntoView({ behavior: "smooth" });
+    window.scrollTo({ top: targetPosition, behavior: "smooth" });
+
 
     // Close the menu after clicking
     toggleMenu();

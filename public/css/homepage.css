@@ -1148,7 +1148,7 @@ table td:last-child, table th:last-child {
     }
 
     .section-1 .title-4 {
-        grid-template-columns: repeat(2, 1fr);
+        /*grid-template-columns: repeat(2, 1fr);*/
 
     }
 
@@ -1163,11 +1163,25 @@ table td:last-child, table th:last-child {
     .section-1 .title-5 img {
         width: 80%;
     }
-}
+    .top-container {
+        /*gap: 0;*/
+    }
+    .top-container-left img {
+        width: 80%;
+    }
 
-@media (max-width: 1279px) {
     .section-1 .text_label-2 {
         font-size: 62px;
+    }
+}
+@media (max-width: 1439px) {
+    .section-1 .text_label-2 {
+        font-size: 56px;
+    }
+}
+@media (max-width: 1279px) {
+    .section-1 .text_label-2 {
+        font-size: 40px;
     }
 
     .group-content-1, .group-content-3 {
@@ -1219,24 +1233,6 @@ table td:last-child, table th:last-child {
     .flex-box3 {
         order: 2;
         flex: 1 1 100%;
-    }
-}
-
-@media  (max-width: 1599px) {
-    .top-container {
-        gap: 0;
-    }
-    .top-container-left {
-        margin-right: 0;
-    }
-    .top-container-left img {
-        width: 80%;
-    }
-   .grid-container img {
-        width: 50%;
-    }
-    .section-1 .text_label-2 {
-        font-size: 62px;
     }
 }
 
