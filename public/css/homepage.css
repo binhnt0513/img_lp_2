@@ -5,7 +5,7 @@
 }
 
 .section-1 {
-    background: var(--eucalyptus) url(../img/section1-bg.png) right center;
+    background: var(--eucalyptus) url(../img/section1-bg.png)  center;
     width: 100%;
     background-size: cover;
     padding-top: 1em;
@@ -1222,7 +1222,27 @@ table td:last-child, table th:last-child {
     }
 }
 
+@media  (max-width: 1599px) {
+    .top-container {
+        gap: 0;
+    }
+    .top-container-left {
+        margin-right: 0;
+    }
+    .top-container-left img {
+        width: 80%;
+    }
+   .grid-container img {
+        width: 50%;
+    }
+    .section-1 .text_label-2 {
+        font-size: 62px;
+    }
+}
+
+
 @media (max-width: 768px) {
+
     .sub-group-label {
         padding-bottom: 20px;
     }
@@ -1531,6 +1551,8 @@ table td:last-child, table th:last-child {
         position: fixed;
         z-index: 1001;
         max-width: unset !important;
+        background: #217E55;
+        padding: 10px 20px;
     }
 
     .top-container {
@@ -1561,7 +1583,7 @@ table td:last-child, table th:last-child {
     }
 
     .section-1 {
-        padding: 25px 0 60px 0;
+        padding: 0   0 60px 0;
         background: var(--eucalyptus) url(../img/section1-bg-sp.png);
         background-size: cover;
     }
