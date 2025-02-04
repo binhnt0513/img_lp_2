@@ -113,7 +113,7 @@
 }
 
 .btn-clear {
-    background: #217E55;
+    background: var(--blue);
     font-size: 34px;
     max-width: 524px;
     width: 100%;
@@ -128,9 +128,10 @@
 
 .btn-clear-medium {
     font-family: var(--font-family-noto_sans_jp);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-m);
     max-width: 264px;
-    line-height: 1.25;
+    line-height: 1.667;
+    background: #8EBE5C;
 }
 
 .btn-orange {
@@ -154,7 +155,7 @@
 
 .heading-brand {
     background-color: transparent;
-    color: var(--white);
+    color: var(--blue);
     font-family: var(--font-family-senobigothic-bold);
     font-size: 32px;
     font-style: normal;
@@ -167,13 +168,13 @@
     height: 88px;
     position: relative;
     /* top: 0px; */
-    width: 523px;
+    width: 803px;
 }
 
 .section-1 .border-title-1 {
-    background-color: transparent;
+    background-color: var(--white);
     border: 2px solid;
-    border-color: var(--white);
+    border-color: var(--blue);
     border-radius: 16px;
     height: calc(100.00% - 23px);
     width: 100%;
@@ -185,24 +186,24 @@
 }
 
 .section-1 .text_label-1 {
-    background-color: #125537;
+    background-color: var(--white);
     border: 2px solid;
-    border-color: var(--white);
+    border-color: var(--blue);
     border-radius: 16px;
     width: 100%;
-    color: var(--white);
+    color: var(--blue);
     font-family: var(--font-family-senobigothic-bold);
-    font-size: 34px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    letter-spacing: 1.70px;
+    /*letter-spacing: 1.70px;*/
     line-height: 2;
     text-align: center;
     white-space: nowrap;
 }
 
 .section-1 .rectangle {
-    background-color: var(--white);
+    background-color: var(--blue);
     bottom: -5px;
     height: 30px;
     position: absolute;
@@ -211,16 +212,28 @@
 }
 
 .section-1 .text_label-2 {
-    color: var(--white);
+    color: var(--blue);
     font-family: var(--font-family-senobi_gothic);
-    font-size: 4.3rem;
+    font-size: 5.25rem;
     font-weight: 700;
     padding-top: 15px;
     left: 69px;
     line-height: 1;
     text-align: center;
+    text-shadow:
+            -3px -3px 0 #FFFFFF,
+            0   -3px 0 #FFFFFF,
+            3px -3px 0 #FFFFFF,
+            3px  0   0 #FFFFFF,
+            3px  3px 0 #FFFFFF,
+            0    3px 0 #FFFFFF,
+            -3px  3px 0 #FFFFFF,
+            -3px  0   0 #FFFFFF;
 }
-
+.section-1 .text_label-2 span {
+    font-size: 4.5rem;
+    color: var(--light-red);
+}
 .section-1 .text-logo {
     font-size: 44px;
     font-family: var(--font-family-senobigothic-bold);
@@ -283,11 +296,20 @@
 
 
 .group-label {
-    color: var(--white);
-    font-family: var(--font-family-senobi_gothic);
-    font-size: var(--font-size-xxxl);
+    color: var(--blue);
+    font-family: var(--font-family-senobi_gothic), sans-serif;
+    font-size: var(--font-size-xxxxl);
     font-weight: 700;
     line-height: 1.5;
+    text-shadow:
+            -3px -3px 0 #FFFFFF,
+            0   -3px 0 #FFFFFF,
+            3px -3px 0 #FFFFFF,
+            3px  0   0 #FFFFFF,
+            3px  3px 0 #FFFFFF,
+            0    3px 0 #FFFFFF,
+            -3px  3px 0 #FFFFFF,
+            -3px  0   0 #FFFFFF;
 }
 
 .sub-group-label {
@@ -295,7 +317,7 @@
 }
 
 .sub-label {
-    color: var(--white);
+    color: var(--black);
     font-family: var(--font-family-senobi_gothic);
     font-size: 36px;
     letter-spacing: 0.00px;
@@ -303,13 +325,22 @@
     text-align: left;
     font-weight: 700;
     white-space: break-spaces;
+    text-shadow:
+            -3px -3px 0 #FFFFFF,
+            0   -3px 0 #FFFFFF,
+            3px -3px 0 #FFFFFF,
+            3px  0   0 #FFFFFF,
+            3px  3px 0 #FFFFFF,
+            0    3px 0 #FFFFFF,
+            -3px  3px 0 #FFFFFF,
+            -3px  0   0 #FFFFFF;
 }
 .sub-label .text-color-aqua {
     font-size: 40px;
 }
 
 .text-detail {
-    color: var(--white);
+    color: var(--black);
     font-family: var(--font-family-noto_sans_jp);
     font-size: var(--font-size-m);
     font-style: normal;
@@ -320,14 +351,14 @@
 }
 
 .text-color-aqua {
-    color: #B7E72C;
+    color: var(--light-red);
 }
 
 .section-2 {
     background-color: var(--eucalyptus);
     gap: 60px;
     padding-bottom: 0;
-    padding-top: 160px;
+    padding-top: 100px;
 }
 
 .group-content-1, .group-content-3 {
@@ -365,7 +396,7 @@
 }
 .triangle-under-field {
     position: relative;
-    background-color: var(--blue-romance);
+    background-color: var(--white);
     width: 100%;
     border-radius: 10px;
     max-width: 290px;
@@ -391,13 +422,13 @@
 }
 
 .rectangle {
-    background-color: #ADD832;
+    background-color: var(--blue);
     height: 6px;
     width: 50px;
 }
 
 .desc {
-    color: var(--white);
+    color: var(--black);
     font-family: var(--font-family-noto_sans_jp);
     font-size: 18px;
     font-style: normal;
@@ -408,7 +439,7 @@
 }
 
 .group-content-2 {
-    color: var(--white);
+    color: var(--black);
     font-family: var(--font-family-noto_sans_jp);
     font-size: var(--font-size-m);
     font-style: normal;
@@ -416,7 +447,7 @@
     letter-spacing: 0.00px;
     line-height: 35px;
     text-align: left;
-    padding: 0 0 40px 0;
+    padding: 30px 0 77px 0;
 }
 
 .group-content-3 {
@@ -429,10 +460,11 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    flex: 1;
 }
 
 .contact-container {
-    background: #124F33;
+    background: #78AE3F;
     border-radius: 20px;
     max-width: 1044px;
     margin: auto;
@@ -444,6 +476,10 @@
     gap: 30px;
     flex-direction: column;
     justify-content: center;
+}
+.group-content-4 .group-label {
+    color: var(--white);
+    text-shadow: unset;
 }
 
 .group-content-5 {
@@ -461,9 +497,9 @@
 
 .bot-container {
     max-width: unset !important;
-    background: linear-gradient(180deg, rgba(38, 154, 102, 0), #269a66);
-    background-color: transparent;
+    background: var(--eucalyptus) url(../img/bot-container-bg.png) bottom;
     padding-bottom: 120px;
+    background-size: cover;
 }
 
 .bot-container .group-label {
@@ -504,7 +540,7 @@
 
 .horizontal-line {
     height: 1px;
-    background-color: #B7E72C;
+    background-color: var(--blue);
     margin: 12px -15px;
     border: none;
 }
@@ -514,7 +550,7 @@
 }
 
 table {
-    margin-top: 30px;
+    margin-top: 40px;
     width: 100%;
     border-spacing: 0;
     border-collapse: separate;
@@ -528,7 +564,14 @@ thead th {
     padding: 20px;
     text-align: center;
     font-size: 1.2rem;
-    border-right: 1px solid transparent;
+    border: 1px solid white;
+    background: var(--blue);
+}
+thead th:first-child {
+    border-top-left-radius: 20px;
+}
+thead th:last-child {
+    border-top-right-radius: 20px;
 }
 
 table td:first-child, table th:first-child {
@@ -549,20 +592,20 @@ tbody td {
 }
 
 .standard {
-    background-color: #2FB77B;
-    border-radius: 20px 20px 0 0;
+    /*background-color: #2FB77B;*/
+    /*border-radius: 20px 20px 0 0;*/
 }
 
 .premium {
-    background-color: #B7E72C;
-    border-radius: 20px 20px 0 0;
+    /*background-color: #B7E72C;*/
+    /*border-radius: 20px 20px 0 0;*/
     position: relative;
 }
 
 .premium::before {
     content: url('../img/crown-icon.png');
     position: absolute;
-    top: -30px;
+    top: -40px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -574,12 +617,13 @@ td:first-child {
 }
 
 td:last-child {
-    border-right: none;
+    /*border-right: none;*/
 }
 
-table td {
-    border-bottom: 1px solid #B7E72C;
-    border-right: 1px solid #B7E72C;
+table td{
+    border-bottom: 1px solid #2D70B8;
+    border-right: 1px solid #2D70B8;
+    border-left: 1px solid #2D70B8;
 }
 
 table thead, table tbody {
@@ -588,12 +632,21 @@ table thead, table tbody {
 
 table td:last-child, table th:last-child {
     /*border: 5px solid #B7E72C;*/
-    border-left: 5px solid #B7E72C;
-    border-right: 5px solid #B7E72C;
+    /*border-left: 5px solid #B7E72C;*/
+    /*border-right: 5px solid #B7E72C;*/
+}
+table .note-row {
+    background: var(--blue);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left !important;
+    padding: 8px !important;
+    border-radius: 0 0 20px 20px;
 }
 
 .border-bottom-td {
-    border-bottom: 5px solid #B7E72C;
+    /*border-bottom: 5px solid #2D70B8;*/
 }
 
 .css-mine {
@@ -602,7 +655,7 @@ table td:last-child, table th:last-child {
 }
 
 .section-3 {
-    background-color: #217E55;
+    background-color: var(--eucalyptus);
     gap: 60px;
     padding: 80px 0;
 }
@@ -614,7 +667,10 @@ table td:last-child, table th:last-child {
     flex-direction: column;
     justify-content: center;
 }
-
+.group-content-9 .group-label {
+    color: var(--white);
+    text-shadow: unset;
+}
 .group-content-7 .text-detail {
     line-height: 35px;
     text-align: center;
@@ -642,7 +698,7 @@ table td:last-child, table th:last-child {
 }
 
 .even {
-    background-color: var(--blue-romance) !important;
+    /*background-color: var(--blue-romance) !important;*/
 }
 
 .group-content-8 .triangle img {
@@ -687,8 +743,8 @@ table td:last-child, table th:last-child {
 }
 
 .group-content-8 .detail-right .title {
-    color: var(--eucalyptus);
-    font-family: var(--font-family-senobigothic-bold);
+    color: var(--blue);
+    font-family: var(--font-family-senobigothic-bold), sans-serif;
     font-size: var(--font-size-xl);
     font-style: normal;
     font-weight: 700;
@@ -724,7 +780,7 @@ table td:last-child, table th:last-child {
 .double-line .single-line {
     background-color: transparent;
     border: 2px solid;
-    border-color: var(--white);
+    border-color: var(--blue);
     border-radius: 23px;
     box-shadow: 0px 2px 20px #00000014;
     height: 2px;
@@ -737,8 +793,8 @@ table td:last-child, table th:last-child {
 }
 
 .distributor-title {
-    color: var(--white);
-    font-family: var(--font-family-senobigothic-bold);
+    color: var(--blue);
+    font-family: var(--font-family-senobigothic-bold), sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -749,8 +805,8 @@ table td:last-child, table th:last-child {
 }
 
 .distributor-desc {
-    color: var(--white);
-    font-family: var(--font-family-noto_sans_jp);
+    color: var(--black);
+    font-family: var(--font-family-noto_sans_jp), sans-serif;
     font-size: var(--font-size-s);
     font-style: normal;
     font-weight: 400;
@@ -760,13 +816,27 @@ table td:last-child, table th:last-child {
 }
 
 .section-4 {
-    background: #269A66;
+    background: var(--eucalyptus) url(../img/section4-bg.png) center;
+    width: 100%;
+    background-size: cover;
     padding: 80px 0;
+}
+.section-6 {
+    background: var(--eucalyptus) url(../img/section6-bg.png) center;
+    width: 100%;
+    background-size: cover;
+    padding: 80px 0;
+}
+.section-6 .text_desc {
+    color: var(--black);
 }
 
 .section-5 {
-    background-color: #31A873;
+    background: var(--eucalyptus) url(../img/section5-bg.png) center;
+    width: 100%;
+    background-size: cover;
     padding: 80px 0;
+    margin-top: -1px;
 }
 
 .text_desc {
@@ -781,7 +851,7 @@ table td:last-child, table th:last-child {
 
 .text_desc .note {
     -webkit-text-stroke: 1px transparent;
-    color: #B7E72C;
+    color: #FCDB07;
     font-family: var(--font-family-hiraginokaku_gothic_pro-w6);
     font-size: var(--font-size-s);
     font-style: normal;
@@ -792,12 +862,12 @@ table td:last-child, table th:last-child {
 
 .footer-section {
     padding: 0;
-    gap: 0;
+    margin-top: -1px;
 }
 
 .copy-right {
     text-align: center;
-    background-color:  #124F33;
+    background-color:  #78AE3F;
     color: var(--white);
     font-family: var(--font-family-noto_sans_jp);
     font-size: var(--font-size-s);
@@ -808,7 +878,7 @@ table td:last-child, table th:last-child {
 }
 
 .link {
-    background-color: #217E55;
+    background-color: var(--eucalyptus);
     padding: 30px;
 }
 
@@ -816,7 +886,7 @@ table td:last-child, table th:last-child {
     width: 100%;
     display: flex;
     justify-content: center;
-    color: var(--white);
+    color: var(--black);
     font-family: var(--font-family-hiraginokaku_gothic_pron-w3);
     font-size: var(--font-size-s);
     font-style: normal;
@@ -1068,7 +1138,7 @@ table td:last-child, table th:last-child {
     height: 100%;
     width: 0;
     position: fixed;
-    background-color: #124F33;
+    background-color: var(--blue);
     overflow-x: hidden;
     /* transition: 0.5s; */
     z-index: 1000;
@@ -1137,6 +1207,7 @@ table td:last-child, table th:last-child {
 .price {
     font-size: 16px;
     font-weight: normal;
+    color: #E47596;
 }
 .price-bold {
     font-size: 24px;
@@ -1396,34 +1467,24 @@ table td:last-child, table th:last-child {
 
     .section-1 .group-title-1 {
         width: 346px;
-        height: 37px;
     }
 
     .section-1 .text_label-1 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .section-1 .text_label-2 {
-        font-size: 2.4rem;
+        font-size: 2.875rem;
         line-height: 3.2rem;
         letter-spacing: 0;
     }
 
     .section-1 .text_label-2 span {
-        font-size: 30px !important;
-    }
-
-    .section-1 .text_label-1 {
-        font-size: 18px;
-    }
-
-    .section-1 .text_label-1 {
-        font-size: 18px;
-        line-height: 2;
+        font-size: 2.875rem;
     }
 
     .section-1 .rectangle {
-        bottom: -16px;
+        bottom: 13px;
         height: 13px;
     }
 
@@ -1538,16 +1599,18 @@ table td:last-child, table th:last-child {
     }
 
     table td:last-child, table th:last-child {
-        border: unset;
-        border-bottom: 1px solid #B7E72C;
+        /*border: unset;*/
+        /*border-bottom: 1px solid #B7E72C;*/
     }
-
+    table .note-row {
+        font-size: 12px;
+    }
 
     .header-container {
         position: fixed;
         z-index: 1001;
         max-width: unset !important;
-        background: #217E55;
+        background: transparent;
         padding: 10px 20px;
     }
 
@@ -1555,6 +1618,7 @@ table td:last-child, table th:last-child {
         flex-direction: column;
         gap: 25px;
         padding-top: 65px;
+        padding-bottom: 270px;
     }
 
     .grid-container {
@@ -1580,12 +1644,12 @@ table td:last-child, table th:last-child {
 
     .section-1 {
         padding: 0   0 60px 0;
-        background: var(--eucalyptus) url(../img/section1-bg-sp.png);
+        background: var(--eucalyptus) url(../img/section1-bg-sp.png) bottom;
         background-size: cover;
     }
 
     .section-1 .title-2 {
-        padding-top: 10px;
+        /*padding-top: 10px;*/
     }
 
     .top-container-padding {
