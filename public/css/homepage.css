@@ -1479,6 +1479,8 @@ table .note-row {
 
     .section-1 .text_label-1 {
         font-size: 16px;
+        line-height: 23px;
+        padding: 8px 0;
     }
 
     .section-1 .text_label-2 {
