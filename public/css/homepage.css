@@ -1202,7 +1202,7 @@ table .note-row {
 }
 .slick-prev:before,
 .slick-next:before {
-    color:#B7E72C;
+    color: var(--blue);
     font-size: 45px;
 }
 
