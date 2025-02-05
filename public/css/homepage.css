@@ -197,14 +197,14 @@
     font-style: normal;
     font-weight: 700;
     /*letter-spacing: 1.70px;*/
-    line-height: 2;
+    padding: 15px 0;
     text-align: center;
     white-space: nowrap;
 }
 
 .section-1 .rectangle {
     background-color: var(--blue);
-    bottom: -5px;
+    bottom: 3px;
     height: 30px;
     position: absolute;
     right: calc(49.92% - 1px);
@@ -221,14 +221,14 @@
     line-height: 1;
     text-align: center;
     text-shadow:
-            -3px -3px 0 #FFFFFF,
-            0   -3px 0 #FFFFFF,
-            3px -3px 0 #FFFFFF,
-            3px  0   0 #FFFFFF,
-            3px  3px 0 #FFFFFF,
-            0    3px 0 #FFFFFF,
-            -3px  3px 0 #FFFFFF,
-            -3px  0   0 #FFFFFF;
+            -2px -2px 0 #FFFFFF,
+            0   -2px 0 #FFFFFF,
+            2px -2px 0 #FFFFFF,
+            2px  0   0 #FFFFFF,
+            2px  2px 0 #FFFFFF,
+            0    2px 0 #FFFFFF,
+            -2px  2px 0 #FFFFFF,
+            -2px  0   0 #FFFFFF;
 }
 .section-1 .text_label-2 span {
     font-size: 4.5rem;
@@ -302,14 +302,14 @@
     font-weight: 700;
     line-height: 1.5;
     text-shadow:
-            -3px -3px 0 #FFFFFF,
-            0   -3px 0 #FFFFFF,
-            3px -3px 0 #FFFFFF,
-            3px  0   0 #FFFFFF,
-            3px  3px 0 #FFFFFF,
-            0    3px 0 #FFFFFF,
-            -3px  3px 0 #FFFFFF,
-            -3px  0   0 #FFFFFF;
+            -2px -2px 0 #FFFFFF,
+            0   -2px 0 #FFFFFF,
+            2px -2px 0 #FFFFFF,
+            2px  0   0 #FFFFFF,
+            2px  2px 0 #FFFFFF,
+            0    2px 0 #FFFFFF,
+            -2px  2px 0 #FFFFFF,
+            -2px  0   0 #FFFFFF;
 }
 
 .sub-group-label {
@@ -326,14 +326,14 @@
     font-weight: 700;
     white-space: break-spaces;
     text-shadow:
-            -3px -3px 0 #FFFFFF,
-            0   -3px 0 #FFFFFF,
-            3px -3px 0 #FFFFFF,
-            3px  0   0 #FFFFFF,
-            3px  3px 0 #FFFFFF,
-            0    3px 0 #FFFFFF,
-            -3px  3px 0 #FFFFFF,
-            -3px  0   0 #FFFFFF;
+            -2px -2px 0 #FFFFFF,
+            0   -2px 0 #FFFFFF,
+            2px -2px 0 #FFFFFF,
+            2px  0   0 #FFFFFF,
+            2px  2px 0 #FFFFFF,
+            0    2px 0 #FFFFFF,
+            -2px  2px 0 #FFFFFF,
+            -2px  0   0 #FFFFFF;
 }
 .sub-label .text-color-aqua {
     font-size: 40px;
@@ -426,6 +426,9 @@
     height: 6px;
     width: 50px;
 }
+.rectangle-white {
+    background-color: var(--white);
+}
 
 .desc {
     color: var(--black);
@@ -499,7 +502,6 @@
     max-width: unset !important;
     background: var(--eucalyptus) url(../img/bot-container-bg.png) bottom;
     padding-bottom: 120px;
-    background-size: cover;
 }
 
 .bot-container .group-label {
@@ -898,9 +900,9 @@ table .note-row {
 }
 
 .vertical-line {
-    background-color: var(--white);
+    background-color: var(--black);
     border: 1px solid;
-    border-color: var(--white);
+    border-color: var(--black);
     width: 1px;
 }
 
@@ -1017,7 +1019,7 @@ table .note-row {
 }
 
 .label-require {
-    color: #B7E72C;
+    color: #FCDB07;
     font-family: var(--font-family-noto_sans_jp);
     font-size: 12px;
     font-style: normal;
@@ -1117,7 +1119,7 @@ table .note-row {
 .bar1, .bar2, .bar3 {
     width: 27px;
     height: 2px;
-    background-color: var(--white);
+    background-color: var(--blue);
     margin: 6px 0;
     transition: 0.1s;
 }
@@ -1241,17 +1243,23 @@ table .note-row {
         width: 80%;
     }
 
-    .section-1 .text_label-2 {
+    .section-1 .text_label-2, .section-1 .text_label-2 span {
         font-size: 62px;
     }
 }
 @media (max-width: 1439px) {
-    .section-1 .text_label-2 {
+    .section-1 .text_label-2, .section-1 .text_label-2 span {
         font-size: 56px;
+    }
+    .section-1 .group-title-1 {
+        width: 100%;
+    }
+    .section-1 .text_label-1 {
+        font-size: 24px;
     }
 }
 @media (max-width: 1279px) {
-    .section-1 .text_label-2 {
+    .section-1 .text_label-2, .section-1 .text_label-2 span {
         font-size: 40px;
     }
 
@@ -1480,7 +1488,7 @@ table .note-row {
     }
 
     .section-1 .text_label-2 span {
-        font-size: 2.875rem;
+        font-size: 2.625rem;
     }
 
     .section-1 .rectangle {
@@ -1610,7 +1618,7 @@ table .note-row {
         position: fixed;
         z-index: 1001;
         max-width: unset !important;
-        background: transparent;
+        background: #D1EAF8;
         padding: 10px 20px;
     }
 
