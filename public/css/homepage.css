@@ -543,7 +543,7 @@
     max-width: unset !important;
     background: var(--eucalyptus) url(../img/bot-container-bg.png) no-repeat;
     background-position: bottom center;
-    background-size: auto;
+    background-size: cover;
     padding-bottom: 80px;
 }
 
