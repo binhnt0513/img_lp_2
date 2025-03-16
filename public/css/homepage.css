@@ -224,11 +224,11 @@
 }
 
 .top-table-body {
-    padding: 12px 20px;
+    padding: 12px 20px 18px 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 10px;
+    gap: 6px;
     font-size: 18px;
     font-weight: bold;
     color: #033D91;
@@ -237,13 +237,16 @@
 .line {
     display: flex;
     flex-wrap: wrap;
-    gap: 35px;
+    column-gap: 35px;
+    row-gap: 6px;
+    line-height: 1.445;
 }
 
 .sub-line {
     display: flex;
     flex-wrap: wrap;
-    gap: 35px;
+    column-gap: 35px;
+    row-gap: 6px;
 }
 
 .top-table-body span {
