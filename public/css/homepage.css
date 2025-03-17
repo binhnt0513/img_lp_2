@@ -212,6 +212,7 @@
     width: 100%;
     margin: auto;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    font-family: var(--font-family-noto_sans_jp);
 }
 
 .top-table-header {
@@ -251,17 +252,22 @@
 
 .top-table-body span {
     text-decoration: none;
-    display: flex;
-    align-items: center;
+    /*display: flex;*/
+    /*align-items: center;*/
 
 }
 
 .top-table-body span::before {
-    content: "\25CF";
-    color: gold;
+    content: "";
+    display: inline-block;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    background-color: gold;
+    border-radius: 50%;
     margin-right: 5px;
+    border: 2px solid #033D91;
 }
-
 .section-1 .rectangle {
     background-color: #F6E600;
     bottom: 3px;
@@ -576,6 +582,7 @@
     color: white;
     font-size: 16px;
     padding-top: 32px;
+    font-family: var(--font-family-noto_sans_jp);
 }
 
 .table-container {
@@ -1756,21 +1763,30 @@ tbody .table-1-header {
     .top-table-body {
         padding: 12px 15px;
         font-size: 14px;
+        flex-wrap: nowrap;
+    }
+
+    .top-table-body span::before {
+        width: 9px;
+        height: 9px;
     }
 
     .line {
-        gap: 8px;
         flex-direction: column;
+        flex-wrap: nowrap;
     }
 
     .sub-line {
         flex-direction: row;
         gap: 0;
-        height: 19px;
     }
 
-    .sub-line span {
-        width: 50%;
+    .sub-line span:first-child {
+        flex-basis: 45%;
+    }
+
+    .sub-line span:last-child {
+        flex-basis: 55%;
     }
 
     .grid-container {
@@ -1896,5 +1912,12 @@ tbody .table-1-header {
     .slick-next {
         z-index: 1;
         right: 0px;
+    }
+}
+@media (max-width: 429px) {
+    .top-table-body {
+        padding: 12px 0px 12px 8px;
+        font-size: 13px;
+        flex-wrap: nowrap;
     }
 }

@@ -652,11 +652,31 @@
         <a class="menu-link" href="#slider" onclick="navigateToSection(event)">IMG-flowのサービス</a>
     </div>
 </main>
+<img onclick="topFunction()" class="forpc" id="scrollTop" src="./public/img/back-top.png" alt="">
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <script type="text/javascript">
+
+    // only trigger function when media > 768px
+    if (window.innerWidth > 768) {
+        let scrollTopBtn = document.getElementById("scrollTop");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollTopBtn.style.display = "block";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    }
+
     $(document).ready(function () {
         $('.slider').slick({
             slidesToShow: 4,
@@ -702,5 +722,6 @@
         });
     });
 </script>
+
 </body>
 </html>
