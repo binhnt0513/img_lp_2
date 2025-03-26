@@ -335,3 +335,19 @@ input:focus {
     right: 30px;
     z-index: 999;
 }
+
+@media (max-width: 768px) {
+    #scrollTop {
+        bottom: 75px;
+        right: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    #scrollTop {
+        bottom: 75px;
+        right: 12px;
+        height: 45px;
+        width: 45px;
+    }
+}

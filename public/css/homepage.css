@@ -1914,6 +1914,9 @@ tbody .table-1-header {
     tbody td {
         padding: 15px 0;
     }
+    table td:first-child, table th:first-child {
+        width: 40%;
+    }
 }
 
 
