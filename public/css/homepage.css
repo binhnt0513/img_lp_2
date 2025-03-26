@@ -78,6 +78,7 @@
     justify-content: space-between;
     position: relative;
     width: 100%;
+    min-height: 40px;
 }
 
 .btn-gold {
@@ -1743,17 +1744,26 @@ tbody .table-1-header {
     }
 
     .header-container {
-        position: fixed;
+        position: relative;
         z-index: 1001;
         max-width: unset !important;
         background: transparent;
         padding: 10px 20px;
     }
+    .header-container-sp {
+        transition: background-color 0.3s ease-in-out;
+    }
 
+    .header-container.active {
+        position: fixed;
+        background-color: #0B234A;
+        top: 0;
+        width: 100%;
+    }
     .top-container {
         flex-direction: column;
         gap: 25px;
-        padding-top: 90px;
+        /*padding-top: 90px;*/
     }
 
     .top-table-header {
@@ -1814,6 +1824,7 @@ tbody .table-1-header {
         padding: 0 0 60px 0;
         background: var(--eucalyptus) url(../img/section1-bg-sp.png) bottom;
         background-size: cover;
+        gap: 40px;
     }
 
     .section-1 .title-2 {
@@ -1919,5 +1930,8 @@ tbody .table-1-header {
         padding: 12px 0px 12px 8px;
         font-size: 13px;
         flex-wrap: nowrap;
+    }
+    .group-label {
+        letter-spacing: -2.5px;
     }
 }
