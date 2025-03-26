@@ -1226,7 +1226,10 @@ table .note-row {
 .side-menu.open {
     width: 100%;
 }
-
+#slider {
+    padding-left: 0;
+    padding-right: 0;
+}
 .slider-container {
     padding-top: 52px;
     margin: 0 60px;
@@ -1756,7 +1759,7 @@ tbody .table-1-header {
 
     .header-container.active {
         position: fixed;
-        background-color: #0B234A;
+        background-color: #070507;
         top: 0;
         width: 100%;
     }
