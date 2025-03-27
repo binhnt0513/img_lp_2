@@ -674,9 +674,13 @@
     }
     window.addEventListener("scroll", function () {
         const header = document.querySelector(".header-container");
-        const triggerPoint = 500;
+        const section = document.querySelector(".section-1");
 
-        if (window.scrollY > triggerPoint) {
+        if (!header || !section) return; // Kiểm tra nếu phần tử không tồn tại
+
+        const sectionBottom = section.offsetTop + section.offsetHeight; // Tính vị trí cuối của section-1
+
+        if (window.scrollY >= sectionBottom) {
             header.classList.add("active");
         } else {
             header.classList.remove("active");
